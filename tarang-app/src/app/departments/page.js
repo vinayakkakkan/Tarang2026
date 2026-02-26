@@ -1,5 +1,6 @@
 import siteData from '@/data/siteData.json';
 import Link from 'next/link';
+import BASE_PATH from '@/lib/basePath';
 
 export const metadata = {
     title: 'Departments — Tarang 2026 | GPC Kannur',
@@ -13,7 +14,7 @@ export default function DepartmentsPage() {
             <nav className="navbar scrolled" style={{ position: 'relative' }}>
                 <div className="nav-inner">
                     <Link href="/" className="nav-logo">
-                        <img src="/assets/logo.png" alt="Tarang" />
+                        <img src={`${BASE_PATH}/assets/logo.png`} alt="Tarang" />
                         <span className="nav-logo-text">TARANG</span>
                     </Link>
                     <div className="nav-links">

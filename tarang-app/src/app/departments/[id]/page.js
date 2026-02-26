@@ -1,6 +1,7 @@
 import siteData from '@/data/siteData.json';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
+import BASE_PATH from '@/lib/basePath';
 
 export async function generateStaticParams() {
     return siteData.departments.map(dept => ({ id: dept.id }));
@@ -35,7 +36,7 @@ export default async function DepartmentPage({ params }) {
             <nav className="navbar scrolled" style={{ position: 'relative' }}>
                 <div className="nav-inner">
                     <Link href="/" className="nav-logo">
-                        <img src="/assets/logo.png" alt="Tarang" />
+                        <img src={`${BASE_PATH}/assets/logo.png`} alt="Tarang" />
                         <span className="nav-logo-text">TARANG</span>
                     </Link>
                     <div className="nav-links">
@@ -88,7 +89,7 @@ export default async function DepartmentPage({ params }) {
 
                         {dept.pdf && (
                             <a
-                                href={`/Resources/Technical events/${dept.pdf}`}
+                                href={`${BASE_PATH}/Resources/Technical events/${dept.pdf}`}
                                 target="_blank"
                                 className="dept-detail-pdf-btn"
                                 style={{ '--dept-color': dept.color }}

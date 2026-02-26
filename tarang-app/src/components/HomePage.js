@@ -1,6 +1,7 @@
 'use client';
 import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import BASE_PATH from '@/lib/basePath';
 
 export default function HomePage({ initialData }) {
     const [data, setData] = useState(initialData);
@@ -181,7 +182,7 @@ export default function HomePage({ initialData }) {
             <div id="splash-screen" className={splashVisible ? '' : 'hidden'} onClick={dismissSplash}>
                 <div className="splash-bg-pattern" />
                 <div className="splash-content">
-                    <img src="/assets/logo.png" alt="Tarang Logo" className="splash-logo" />
+                    <img src={`${BASE_PATH}/assets/logo.png`} alt="Tarang Logo" className="splash-logo" />
                     <div className="splash-date-text">{data.siteConfig.dates.toUpperCase()}</div>
                     <div className="splash-college">{data.siteConfig.college}</div>
                     <div className="splash-enter">— Click anywhere to enter —</div>
@@ -195,7 +196,7 @@ export default function HomePage({ initialData }) {
             <nav className={`navbar${scrolled ? ' scrolled' : ''}`} id="navbar">
                 <div className="nav-inner">
                     <a href="#" className="nav-logo">
-                        <img src="/assets/logo.png" alt="Tarang" />
+                        <img src={`${BASE_PATH}/assets/logo.png`} alt="Tarang" />
                         <span className="nav-logo-text">TARANG</span>
                     </a>
                     <div className="nav-links">
@@ -217,7 +218,7 @@ export default function HomePage({ initialData }) {
             <div className={`mobile-menu${menuOpen ? ' open' : ''}`}>
                 <div className="mobile-menu-content">
                     <div className="mobile-menu-image">
-                        <img src="/assets/logo.png" alt="Logo" />
+                        <img src={`${BASE_PATH}/assets/logo.png`} alt="Logo" />
                     </div>
                     <div className="mobile-menu-links">
                         {['about', 'departments', 'events', 'schedule', 'team', 'sponsors', 'register'].map(s => (
@@ -229,14 +230,14 @@ export default function HomePage({ initialData }) {
 
             {/* HERO */}
             <section className="hero" id="home">
-                <div className="hero-bg"><img src="/assets/hero-bg.png" alt="Background" /></div>
+                <div className="hero-bg"><img src={`${BASE_PATH}/assets/hero-bg.png`} alt="Background" /></div>
                 <div className="glow-orb glow-orb-orange" style={{ width: 350, height: 350, top: '10%', left: '-8%' }} />
                 <div className="glow-orb glow-orb-pink" style={{ width: 250, height: 250, bottom: '15%', right: '-5%' }} />
                 <div className="glow-orb glow-orb-gold" style={{ width: 300, height: 300, top: '50%', left: '60%' }} />
                 <div className="hero-content">
                     <div className="hero-college">{data.siteConfig.college.replace('Kannur', '').trim()} <span>Kannur</span></div>
-                    <img src="/assets/logo.png" alt="Tarang Logo" className="hero-logo-hero" />
-                    <img src="/assets/tarang-name.png" alt="TARANG" className="hero-name-art" />
+                    <img src={`${BASE_PATH}/assets/logo.png`} alt="Tarang Logo" className="hero-logo-hero" />
+                    <img src={`${BASE_PATH}/assets/tarang-name.png`} alt="TARANG" className="hero-name-art" />
                     <div className="hero-year">2 0 2 6</div>
                     <div className="hero-date"><span>{data.siteConfig.dates}</span></div>
                     <div className="hero-buttons">
@@ -276,7 +277,7 @@ export default function HomePage({ initialData }) {
                     <div className="about-grid">
                         <div className="about-visual reveal-left">
                             <div className="about-image-container">
-                                <img src="/assets/cultural-bg.png" alt="Tarang Festival" />
+                                <img src={`${BASE_PATH}/assets/cultural-bg.png`} alt="Tarang Festival" />
                                 <div className="about-image-overlay" />
                             </div>
                             <div className="about-floating-card">
@@ -475,7 +476,7 @@ export default function HomePage({ initialData }) {
                     <div className="footer-top">
                         <div className="footer-brand">
                             <div className="footer-logo">
-                                <img src="/assets/logo.png" alt="Tarang" />
+                                <img src={`${BASE_PATH}/assets/logo.png`} alt="Tarang" />
                                 <span className="footer-logo-text">TARANG 2026</span>
                             </div>
                             <p>{data.siteConfig.tagline}. Annual tech and cultural fest of {data.siteConfig.college}.</p>
