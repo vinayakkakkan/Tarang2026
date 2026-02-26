@@ -35,6 +35,9 @@ jobs:
 
       - name: Build Next.js static export
         working-directory: tarang-app
+        env:
+          GITHUB_ACTIONS: "true"
+          NEXT_PUBLIC_BASE_PATH: "/Tarang2026"
         run: npm run build
 
       - name: Setup Pages
