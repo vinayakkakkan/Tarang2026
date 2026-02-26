@@ -630,6 +630,15 @@
       "badge": "Cultural",
       "date": "March 12",
       "team": "Individual"
+    },
+    {
+      "title": "test 1",
+      "desc": "this is for testing only",
+      "category": "tech",
+      "badge": "tech",
+      "date": "12-03-2026",
+      "team": "1 person",
+      "id": "1772145820778"
     }
   ],
   "schedule": [
