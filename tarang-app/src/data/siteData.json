@@ -736,9 +736,9 @@
   "team": [
     {
       "id": "1",
-      "name": "Fest Coordinator",
-      "role": "Overall Coordination",
-      "initials": "FC"
+      "name": "BIJU KT",
+      "role": "FEST DIRECTOR",
+      "initials": "FD"
     },
     {
       "id": "2",
@@ -787,7 +787,7 @@
     {
       "id": "1",
       "question": "Who can participate in Tarang 2026?",
-      "answer": "Tarang is primarily for students of Government Polytechnic College Kannur, but inter-college participants may be allowed for select events. A valid college ID is required."
+      "answer": "Tarang is primarily for students of technical education institutions (A valid college/any ID is required). Creative and Cultural events are open to public."
     },
     {
       "id": "2",
@@ -797,7 +797,7 @@
     {
       "id": "3",
       "question": "Is there a registration fee?",
-      "answer": "Registration details will be announced soon. Some events may have a nominal fee. Keep an eye on our social media for updates."
+      "answer": "Most of the events have a fee of Rs 30/-. Some events may have a nominal fee difference."
     },
     {
       "id": "4",
@@ -815,5 +815,12 @@
       "answer": "Day 1 focuses on technical events, quizzes, art, and prelims. Day 2 features finals, cultural performances, fashion show, and the grand closing ceremony."
     }
   ],
-  "customPages": []
+  "customPages": [
+    {
+      "title": "Technical events",
+      "slug": "https://gptckannur.ac.in/index.php/tarang-26/Technical events",
+      "content": "These are the various technical events conducted by different Departments of GPTC Kannur as a part of Tarang ",
+      "id": "1772184136339"
+    }
+  ]
 }
