@@ -206,7 +206,7 @@ export default function HomePage({ initialData }) {
                         <a href="#schedule">Schedule</a>
                         <a href="#team">Team</a>
                         <a href="#faq">FAQ</a>
-                        <a href="#register" className="nav-cta">Register</a>
+                        <Link href="/register" className="nav-cta">Register</Link>
                     </div>
                     <div className={`hamburger${menuOpen ? ' active' : ''}`} onClick={toggleMenu}>
                         <span /><span /><span />
@@ -222,7 +222,9 @@ export default function HomePage({ initialData }) {
                     </div>
                     <div className="mobile-menu-links">
                         {['about', 'departments', 'events', 'schedule', 'team', 'sponsors', 'register'].map(s => (
-                            <a key={s} href={`#${s}`} onClick={closeMobileMenu}>{s.charAt(0).toUpperCase() + s.slice(1)}</a>
+                            s === 'register' ?
+                                <Link key={s} href="/register" onClick={closeMobileMenu}>Register</Link> :
+                                <a key={s} href={`#${s}`} onClick={closeMobileMenu}>{s.charAt(0).toUpperCase() + s.slice(1)}</a>
                         ))}
                     </div>
                 </div>
@@ -241,10 +243,10 @@ export default function HomePage({ initialData }) {
                     <div className="hero-year">2 0 2 6</div>
                     <div className="hero-date"><span>{data.siteConfig.dates}</span></div>
                     <div className="hero-buttons">
-                        <a href="#register" className="btn-primary">
+                        <Link href="/register" className="btn-primary">
                             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M15 3h6v6M14 10l7-7M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6" /></svg>
                             Register Now
-                        </a>
+                        </Link>
                         <a href="#events" className="btn-secondary">
                             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10" /><polygon points="10 8 16 12 10 16 10 8" /></svg>
                             Explore Events
@@ -465,7 +467,7 @@ export default function HomePage({ initialData }) {
                     <div className="cta-content reveal">
                         <h2 className="cta-title">Be Part of<br /><span className="gradient-text">Tarang 2026</span></h2>
                         <p className="cta-desc">Don&apos;t miss the most awaited fest of GPC Kannur. Register now and be part of the spectrum of technology and culture.</p>
-                        <a href="#" className="btn-primary" style={{ fontSize: '1.05rem', padding: '17px 42px' }}>Register for Tarang 2026</a>
+                        <Link href="/register" className="btn-primary" style={{ fontSize: '1.05rem', padding: '17px 42px' }}>Register for Tarang 2026</Link>
                     </div>
                 </div>
             </section>
@@ -492,7 +494,9 @@ export default function HomePage({ initialData }) {
                         </div>
                         <div className="footer-column">
                             <h4>More</h4>
-                            {[['#team', 'Our Team'], ['#sponsors', 'Sponsors'], ['#faq', 'FAQ'], ['#register', 'Register']].map(([h, t]) => <a key={h} href={h}>{t}</a>)}
+                            {[['#team', 'Our Team'], ['#sponsors', 'Sponsors'], ['#faq', 'FAQ'], ['/register', 'Register']].map(([h, t]) => (
+                                h.startsWith('/') ? <Link key={h} href={h}>{t}</Link> : <a key={h} href={h}>{t}</a>
+                            ))}
                         </div>
                         <div className="footer-column">
                             <h4>Contact</h4>
