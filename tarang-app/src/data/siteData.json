@@ -13,79 +13,165 @@
       "id": "civil",
       "name": "Civil Engineering",
       "icon": "🏗️",
-      "description": "The Civil Engineering department brings the world of structural innovation to Tarang. Compete in events that test your ability to design, build, and analyze real-world construction challenges.",
+      "description": "The Civil Engineering department brings structural innovation and sustainable building challenges to Tarang 2026.",
       "color": "#4a9eff",
-      "pdf": "TARANG-GPC KANNUR-CIVIL ENGINEERING.pdf",
+      "pdf": "TARANG-GPTC KANNUR-CIVIL ENGINEERING.pdf",
       "departmentEvents": [
         {
           "id": "civil-1",
-          "title": "Bridge Building Challenge",
-          "desc": "Design and construct a model bridge using popsicle sticks. The bridge must sustain maximum load while maintaining structural elegance.",
-          "date": "March 12",
-          "time": "10:00 AM",
-          "venue": "Civil Lab",
-          "team": "2–3 members",
-          "rules": [
-            "Materials will be provided",
-            "Time limit: 2 hours",
-            "Judged on load-bearing capacity and aesthetics"
-          ]
+          "title": "Civil Brain Challenge",
+          "subtitle": "Technical Quiz",
+          "desc": "A technical quiz on core Civil Engineering concepts and problem-solving skills.",
+          "date": "March 12, 2026",
+          "venue": "Govt. Polytechnic College Kannur",
+          "team": "Individual",
+          "fee": "₹30",
+          "prize": "₹4,500",
+          "contacts": [
+            {
+              "name": "Anish",
+              "phone": "8238262727"
+            },
+            {
+              "name": "Muhammed Adhil Jarshan",
+              "phone": "7012307552"
+            }
+          ],
+          "activityPoints": true
         },
         {
           "id": "civil-2",
-          "title": "Surveying Competition",
-          "desc": "Demonstrate your surveying skills using theodolite and leveling instruments in a timed field exercise.",
-          "date": "March 12",
-          "time": "11:30 AM",
-          "venue": "Campus Ground",
-          "team": "2–3 members",
-          "rules": [
-            "Instruments provided",
-            "Accuracy is paramount",
-            "Time limit: 1.5 hours"
-          ]
+          "title": "AutoCAD Home Planner",
+          "subtitle": "CAD Drafting Competition",
+          "desc": "Drafting a residential building's plan, elevation, and section using AutoCAD.",
+          "date": "March 12, 2026",
+          "venue": "Govt. Polytechnic College Kannur",
+          "team": "Team of 2",
+          "fee": "₹50 per team",
+          "prize": "₹4,500",
+          "contacts": [
+            {
+              "name": "Sreelakshmi PK",
+              "phone": "8590390161"
+            },
+            {
+              "name": "Anagha PV",
+              "phone": "9207869408"
+            }
+          ],
+          "activityPoints": true
         },
         {
           "id": "civil-3",
-          "title": "Estimation Quiz",
-          "desc": "Test your knowledge of estimation, costing, and quantity surveying in this rapid-fire technical quiz.",
-          "date": "March 12",
-          "time": "2:00 PM",
-          "venue": "Seminar Hall A",
-          "team": "2 members",
-          "rules": [
-            "Multiple rounds",
-            "Top 3 teams advance to finals",
-            "No electronic devices"
-          ]
+          "title": "Paper Tower Challenge",
+          "subtitle": "Structural Building Contest",
+          "desc": "Build the tallest stable, self-supporting tower using only newspapers and staples.",
+          "date": "March 13, 2026",
+          "venue": "Govt. Polytechnic College Kannur",
+          "team": "Team of 2",
+          "fee": "₹60 per team",
+          "prize": "₹4,500",
+          "contacts": [
+            {
+              "name": "Thejas Prabha",
+              "phone": "8621181322"
+            },
+            {
+              "name": "Navanej",
+              "phone": "7594008910"
+            }
+          ],
+          "activityPoints": true
         },
         {
           "id": "civil-4",
-          "title": "CAD Design Challenge",
-          "desc": "Design a building plan using AutoCAD within the given time. Judged on accuracy, detailing, and creativity.",
-          "date": "March 13",
-          "time": "10:00 AM",
-          "venue": "Computer Lab 1",
-          "team": "Individual",
-          "rules": [
-            "AutoCAD provided",
-            "Theme revealed on spot",
-            "Time limit: 2 hours"
-          ]
+          "title": "Stick Tech Bridge",
+          "subtitle": "Bridge Building Competition",
+          "desc": "Construct a bridge model from popsicle sticks and glue to hold maximum load.",
+          "date": "March 13, 2026",
+          "venue": "Govt. Polytechnic College Kannur",
+          "team": "Team of 2",
+          "fee": "₹60 per team",
+          "prize": "₹4,500",
+          "contacts": [
+            {
+              "name": "Abhinav Premadasan",
+              "phone": "8086058427"
+            },
+            {
+              "name": "Rejin K Krishnan",
+              "phone": "8591141315"
+            }
+          ],
+          "activityPoints": true
         },
         {
           "id": "civil-5",
-          "title": "Concrete Cube Testing",
-          "desc": "Prepare and test concrete cube specimens. Demonstrate your understanding of mix design and material properties.",
-          "date": "March 13",
-          "time": "1:00 PM",
-          "venue": "Materials Lab",
-          "team": "2–3 members",
-          "rules": [
-            "Materials provided",
-            "Safety gear mandatory",
-            "Judged on compressive strength"
-          ]
+          "title": "Workshop on SketchUp",
+          "subtitle": "3D Modelling Workshop",
+          "desc": "A one-day workshop on 3D house modelling, plugins, and rendering using SketchUp.",
+          "date": "March 13, 2026",
+          "time": "10:00 AM – 4:00 PM",
+          "venue": "Govt. Polytechnic College Kannur",
+          "team": "Individual",
+          "fee": "₹70",
+          "contacts": [
+            {
+              "name": "Sreenand",
+              "phone": "8590766731"
+            },
+            {
+              "name": "Prathyush",
+              "phone": "6282415790"
+            }
+          ],
+          "activityPoints": true
+        },
+        {
+          "id": "civil-6",
+          "title": "Project Competition",
+          "subtitle": "Innovation Beyond Boundaries",
+          "desc": "Interdisciplinary project competition open to all branches showcasing innovative engineering solutions.",
+          "date": "March 12, 2026",
+          "venue": "Govt. Polytechnic College Kannur",
+          "team": "Team",
+          "fee": "₹100",
+          "prize": "₹10,000",
+          "contacts": [
+            {
+              "name": "Sreesanth S",
+              "phone": "9048880407"
+            },
+            {
+              "name": "Joyal Shibu",
+              "phone": "8075950481"
+            }
+          ],
+          "activityPoints": true,
+          "openToAll": true
+        },
+        {
+          "id": "civil-7",
+          "title": "Seminar Competition",
+          "subtitle": "Sustainable Development in the 21st Century",
+          "desc": "Exploring innovative strategies and technologies driving sustainable development in the 21st century.",
+          "date": "March 13, 2026",
+          "venue": "Govt. Polytechnic College Kannur",
+          "team": "Individual",
+          "fee": "₹30",
+          "prize": "₹4,500",
+          "contacts": [
+            {
+              "name": "Jamsheed T M",
+              "phone": "9188172314"
+            },
+            {
+              "name": "Muhammed Shabil C P",
+              "phone": "8137845321"
+            }
+          ],
+          "activityPoints": true,
+          "openToAll": true
         }
       ]
     },
@@ -93,79 +179,164 @@
       "id": "eee",
       "name": "Electrical & Electronics",
       "icon": "⚡",
-      "description": "The Electrical & Electronics department powers up Tarang with electrifying competitions. From circuit design to electrical machine troubleshooting, showcase your expertise in power and electronics.",
+      "description": "The Electrical & Electronics department powers up Tarang with electrifying competitions in circuits, wiring, CAD, and Arduino programming.",
       "color": "#f5c91a",
-      "pdf": "TARANG-GPC KANNUR-ELECTRICAL AND ELECTRONICS ENGINEERING.pdf",
+      "pdf": "TARANG-GPTC KANNUR-ELECTRICAL AND ELECTRONICS ENGINEERING.pdf",
       "departmentEvents": [
         {
           "id": "eee-1",
-          "title": "Circuit Debugging",
-          "desc": "Find and fix faults in complex electrical circuits within a time limit. Speed and precision are key!",
-          "date": "March 12",
-          "time": "10:00 AM",
-          "venue": "EEE Lab 1",
+          "title": "Electrical Quiz",
+          "subtitle": "Technical Quiz",
+          "desc": "A curriculum-based quiz for Electrical Engineering students to test core technical knowledge and concepts.",
+          "date": "March 12, 2026",
+          "venue": "Govt. Polytechnic College Kannur",
           "team": "Individual",
-          "rules": [
-            "Tools provided",
-            "3 circuits per round",
-            "Time limit: 45 minutes"
-          ]
+          "fee": "₹30",
+          "prize": "₹4,500",
+          "contacts": [
+            {
+              "name": "Jerin Krishna",
+              "phone": "8921813065"
+            },
+            {
+              "name": "Ananya V S",
+              "phone": "7510935219"
+            }
+          ],
+          "activityPoints": true
         },
         {
           "id": "eee-2",
-          "title": "Wiring Competition",
-          "desc": "Complete domestic and industrial wiring setups with precision. Neatness, safety, and speed all count.",
-          "date": "March 12",
-          "time": "11:30 AM",
-          "venue": "EEE Workshop",
-          "team": "2 members",
-          "rules": [
-            "All materials provided",
-            "Safety standards mandatory",
-            "Time limit: 1 hour"
-          ]
+          "title": "Network Puzzle",
+          "subtitle": "Circuit Logic Challenge",
+          "desc": "Timed logical and technical puzzles based on basic electric circuits.",
+          "date": "March 12, 2026",
+          "venue": "Govt. Polytechnic College Kannur",
+          "team": "Individual",
+          "fee": "₹30",
+          "prize": "₹4,500",
+          "contacts": [
+            {
+              "name": "Krishna Surya Jijith",
+              "phone": "9747097347"
+            },
+            {
+              "name": "Ayshathu Riya",
+              "phone": "7012337287"
+            }
+          ],
+          "activityPoints": true
         },
         {
           "id": "eee-3",
-          "title": "Electrical Quiz Bowl",
-          "desc": "Battle through multiple rounds of questions covering electrical machines, power systems, and electronics fundamentals.",
-          "date": "March 12",
-          "time": "2:00 PM",
-          "venue": "Seminar Hall B",
-          "team": "2–3 members",
-          "rules": [
-            "Prelims + Finals",
-            "Buzzer round in finals",
-            "No electronic devices"
-          ]
+          "title": "Electrical Wiring Competition",
+          "subtitle": "Practical Wiring Challenge",
+          "desc": "Complete the electrical wiring task as per the given conditions within the allotted time.",
+          "date": "March 13, 2026",
+          "venue": "Govt. Polytechnic College Kannur",
+          "team": "Team of 2",
+          "fee": "₹60 per team",
+          "prize": "₹4,500",
+          "contacts": [
+            {
+              "name": "Adithyan C",
+              "phone": "9037414565"
+            },
+            {
+              "name": "Sandeep S",
+              "phone": "9539755308"
+            }
+          ],
+          "activityPoints": true
         },
         {
           "id": "eee-4",
-          "title": "Transformer Design Challenge",
-          "desc": "Design and wind a small transformer to meet specified voltage and current ratings.",
-          "date": "March 13",
-          "time": "10:00 AM",
-          "venue": "EEE Lab 2",
-          "team": "2 members",
-          "rules": [
-            "Materials provided",
-            "Tested for output accuracy",
-            "Time limit: 2 hours"
-          ]
+          "title": "Electrical CAD Competition",
+          "subtitle": "CAD Design Challenge",
+          "desc": "Design accurate electrical layouts and schematics in CAD.",
+          "date": "March 13, 2026",
+          "venue": "Govt. Polytechnic College Kannur",
+          "team": "Individual",
+          "fee": "₹30",
+          "prize": "₹4,500",
+          "contacts": [
+            {
+              "name": "Muhammad Badsha",
+              "phone": "8281858023"
+            },
+            {
+              "name": "Sneha M M",
+              "phone": "9778403516"
+            }
+          ],
+          "activityPoints": true
         },
         {
           "id": "eee-5",
-          "title": "PLC Programming Contest",
-          "desc": "Program a PLC to control an automated sequence. Demonstrate your industrial automation skills.",
-          "date": "March 13",
-          "time": "1:00 PM",
-          "venue": "Automation Lab",
+          "title": "Arduino Programming Workshop",
+          "subtitle": "Hands-on Workshop",
+          "desc": "Learn Arduino basics through hands-on coding, sensor interfacing, and building real projects.",
+          "date": "March 13, 2026",
+          "venue": "Govt. Polytechnic College Kannur",
           "team": "Individual",
-          "rules": [
-            "PLC kits provided",
-            "Problem statement on spot",
-            "Time limit: 1.5 hours"
-          ]
+          "fee": "₹70",
+          "contacts": [
+            {
+              "name": "Gopika M V",
+              "phone": "8891637289"
+            },
+            {
+              "name": "Akshay P",
+              "phone": "8136834492"
+            }
+          ],
+          "activityPoints": true
+        },
+        {
+          "id": "eee-6",
+          "title": "Project Competition",
+          "subtitle": "Innovation Beyond Boundaries",
+          "desc": "Develop innovative projects showcasing interdisciplinary engineering solutions. Open to all branches.",
+          "date": "March 12, 2026",
+          "venue": "Govt. Polytechnic College Kannur",
+          "team": "Team",
+          "fee": "₹100",
+          "prize": "₹10,000",
+          "contacts": [
+            {
+              "name": "Sreesanth S",
+              "phone": "9048880407"
+            },
+            {
+              "name": "Joyal Shibu",
+              "phone": "8593975530"
+            }
+          ],
+          "activityPoints": true,
+          "openToAll": true
+        },
+        {
+          "id": "eee-7",
+          "title": "Seminar Competition",
+          "subtitle": "Sustainable Development in the 21st Century",
+          "desc": "Exploring innovative strategies and technologies driving sustainable development in the 21st century.",
+          "date": "March 13, 2026",
+          "venue": "Govt. Polytechnic College Kannur",
+          "team": "Individual",
+          "fee": "₹30",
+          "prize": "₹4,500",
+          "contacts": [
+            {
+              "name": "Prithwikant Kannu",
+              "phone": "8547434202"
+            },
+            {
+              "name": "Abhinand T M",
+              "phone": "8137064881"
+            }
+          ],
+          "activityPoints": true,
+          "openToAll": true
         }
       ]
     },
@@ -173,79 +344,121 @@
       "id": "ece",
       "name": "Electronics Engineering",
       "icon": "📡",
-      "description": "The Electronics Engineering department brings cutting-edge digital and analog challenges to Tarang. From embedded systems to communication circuits, test your electronics prowess.",
+      "description": "The Electronics Engineering department brings cutting-edge digital challenges — from soldering and PCB design to Python debugging.",
       "color": "#e6236c",
-      "pdf": "TARANG-GPC KANNUR-ELECTRONICS ENGG.pdf",
+      "pdf": "TARANG-GPTC KANNUR-ELECTRONICS ENGG.pdf",
       "departmentEvents": [
         {
           "id": "ece-1",
-          "title": "PCB Design Challenge",
-          "desc": "Design a PCB layout for a given circuit schematic using EDA tools. Precision and optimization are key.",
-          "date": "March 12",
-          "time": "10:00 AM",
-          "venue": "ECE Lab 1",
+          "title": "Hot Joint",
+          "subtitle": "Solder & Build",
+          "desc": "Assemble a given circuit on a general-purpose PCB using proper soldering techniques.",
+          "date": "March 12, 2026",
+          "venue": "Govt. Polytechnic College Kannur",
           "team": "Individual",
-          "rules": [
-            "EDA software provided",
-            "Schematic given on spot",
-            "Time limit: 2 hours"
-          ]
+          "fee": "₹30",
+          "prize": "₹4,500",
+          "contacts": [
+            {
+              "name": "Anandu Sivan",
+              "phone": "9187988863"
+            },
+            {
+              "name": "Devika P V",
+              "phone": "7306233261"
+            }
+          ],
+          "activityPoints": true
         },
         {
           "id": "ece-2",
-          "title": "Arduino Challenge",
-          "desc": "Build a working prototype using Arduino to solve a real-world problem. Creativity meets electronics!",
-          "date": "March 12",
-          "time": "12:00 PM",
-          "venue": "ECE Project Lab",
-          "team": "2–3 members",
-          "rules": [
-            "Arduino kits provided",
-            "Sensors available",
-            "Time limit: 3 hours"
-          ]
+          "title": "BugSlayer.py",
+          "subtitle": "Hunt, Fix, Win",
+          "desc": "A timed contest focused on debugging and optimizing Python programs.",
+          "date": "March 12, 2026",
+          "venue": "Govt. Polytechnic College Kannur",
+          "team": "Individual",
+          "fee": "₹30",
+          "prize": "₹4,500",
+          "contacts": [
+            {
+              "name": "Vishnu C P",
+              "phone": "8587858362"
+            },
+            {
+              "name": "Geethika A",
+              "phone": "8127444877"
+            }
+          ],
+          "activityPoints": true
         },
         {
           "id": "ece-3",
-          "title": "Signal Processing Quiz",
-          "desc": "Test your knowledge of analog and digital signal processing, communication systems, and VLSI.",
-          "date": "March 12",
-          "time": "2:30 PM",
-          "venue": "Seminar Hall A",
-          "team": "2 members",
-          "rules": [
-            "Written + Buzzer rounds",
-            "Top 5 teams to finals",
-            "Calculators allowed"
-          ]
+          "title": "Trace Race",
+          "subtitle": "PCB Design Competition",
+          "desc": "PCB Designing competition using Proteus 8 — Circuit schematic + PCB Layout design.",
+          "date": "March 13, 2026",
+          "venue": "Govt. Polytechnic College Kannur",
+          "team": "Individual",
+          "fee": "₹30",
+          "prize": "₹4,500",
+          "contacts": [
+            {
+              "name": "Athul P M",
+              "phone": "9072414684"
+            },
+            {
+              "name": "Dhanuseeka E",
+              "phone": "7306915282"
+            }
+          ],
+          "activityPoints": true
         },
         {
           "id": "ece-4",
-          "title": "Soldering Challenge",
-          "desc": "Assemble a working electronic circuit on a PCB through expert soldering. Speed and quality matter!",
-          "date": "March 13",
-          "time": "10:30 AM",
-          "venue": "ECE Workshop",
-          "team": "Individual",
-          "rules": [
-            "Components provided",
-            "Safety gear mandatory",
-            "Judged on functionality and neatness"
-          ]
+          "title": "Project Competition",
+          "subtitle": "Innovation Beyond Boundaries",
+          "desc": "Showcase groundbreaking projects in a multi-disciplinary stage. Open to all branches.",
+          "date": "March 12, 2026",
+          "venue": "Govt. Polytechnic College Kannur",
+          "team": "Team",
+          "fee": "₹100",
+          "prize": "₹10,000",
+          "contacts": [
+            {
+              "name": "Sreeram K S",
+              "phone": "8075313534"
+            },
+            {
+              "name": "Joyal Shibu",
+              "phone": "8113941398"
+            }
+          ],
+          "activityPoints": true,
+          "openToAll": true
         },
         {
           "id": "ece-5",
-          "title": "IoT Innovation Challenge",
-          "desc": "Build an IoT-based solution for smart campus or home automation using NodeMCU or ESP32.",
-          "date": "March 13",
-          "time": "1:00 PM",
-          "venue": "ECE Lab 2",
-          "team": "2–4 members",
-          "rules": [
-            "IoT modules provided",
-            "Cloud platform access given",
-            "Time limit: 3 hours"
-          ]
+          "title": "Seminar Competition",
+          "subtitle": "Sustainable Development in the 21st Century",
+          "desc": "Exploring innovative strategies and technologies driving sustainable development in the 21st century.",
+          "date": "March 13, 2026",
+          "venue": "Govt. Polytechnic College Kannur",
+          "team": "Individual",
+          "fee": "₹30",
+          "prize": "₹4,500",
+          "contacts": [
+            {
+              "name": "Fathimath Prishna",
+              "phone": "6235434197"
+            },
+            {
+              "name": "Abhiram T M",
+              "phone": "8127444877"
+            }
+          ],
+          "activityPoints": true,
+          "openToAll": true
         }
       ]
     },
@@ -253,93 +466,156 @@
       "id": "mech",
       "name": "Mechanical Engineering",
       "icon": "⚙️",
-      "description": "The Mechanical Engineering department brings raw engineering power to Tarang. From precision machining to innovative design challenges, prove your mechanical mastery.",
+      "description": "The Mechanical Engineering department brings raw engineering power to Tarang — from sheet metal fabrication and lathe machining to CAD mastery and 3D printing.",
       "color": "#f27b1a",
-      "pdf": "TARANG-GPC KANNUR-MECHANICAL ENGINEERING.pdf",
+      "pdf": "TARANG-GPTC KANNUR-MECHANICAL ENGINEERING.pdf",
       "departmentEvents": [
         {
           "id": "mech-1",
-          "title": "CAD Modelling Contest",
-          "desc": "Create precision 3D models using SolidWorks or Fusion 360. Creativity meets engineering accuracy.",
-          "date": "March 12",
-          "time": "10:00 AM",
-          "venue": "CAD Lab",
-          "team": "Individual",
-          "rules": [
-            "Software provided",
-            "Model revealed on spot",
-            "Time limit: 2 hours"
-          ]
+          "title": "Metal Fab Maestro",
+          "subtitle": "Sheet Metal Fabrication",
+          "desc": "A practical skill-based competition where participants fabricate a given sheet metal component using marking, cutting, bending, forming, and joining operations.",
+          "date": "March 12, 2026",
+          "venue": "Fitting Lab",
+          "team": "Team",
+          "fee": "₹300 per team",
+          "prize": "₹4,000",
+          "contacts": [
+            {
+              "name": "Arjun PP",
+              "phone": "9061180463"
+            },
+            {
+              "name": "Anurag K",
+              "phone": "9544719881"
+            }
+          ],
+          "activityPoints": true
         },
         {
           "id": "mech-2",
-          "title": "Lathe Machining Challenge",
-          "desc": "Demonstrate your machining skills on a lathe. Precision turning operations within tight tolerances.",
-          "date": "March 12",
-          "time": "11:30 AM",
-          "venue": "Machine Shop",
+          "title": "MechCAD Master",
+          "subtitle": "AutoCAD Competition",
+          "desc": "Competition involving 2D and 3D machine component drawing in AutoCAD, adhering to BIS standards. Judged on accuracy, clarity, annotation, and assembly representation.",
+          "date": "March 12, 2026",
+          "venue": "CAD Lab",
           "team": "Individual",
-          "rules": [
-            "Materials provided",
-            "Safety protocols mandatory",
-            "Judged on dimensional accuracy"
-          ]
+          "fee": "₹300",
+          "prize": "₹4,000",
+          "contacts": [
+            {
+              "name": "Ashwin T",
+              "phone": "7034231296"
+            },
+            {
+              "name": "Abhijith K",
+              "phone": "7561118330"
+            }
+          ],
+          "activityPoints": true
         },
         {
           "id": "mech-3",
-          "title": "IC Engine Quiz",
-          "desc": "A rapid-fire quiz covering thermodynamics, IC engines, automobile engineering, and manufacturing processes.",
-          "date": "March 12",
-          "time": "2:00 PM",
-          "venue": "Seminar Hall B",
-          "team": "2–3 members",
-          "rules": [
-            "Multiple rounds",
-            "Visual round included",
-            "No electronic devices"
-          ]
+          "title": "Workshop on Additive Manufacturing",
+          "subtitle": "Innovate. Create. Fabricate.",
+          "desc": "A one-day workshop focused on additive manufacturing and 3D printing technologies.",
+          "date": "March 13, 2026",
+          "venue": "Project Lab",
+          "team": "Individual",
+          "fee": "₹150",
+          "contacts": [
+            {
+              "name": "Alfas K P",
+              "phone": "9357611846"
+            },
+            {
+              "name": "Ashiqu C K",
+              "phone": "9539378933"
+            }
+          ],
+          "activityPoints": true
         },
         {
           "id": "mech-4",
-          "title": "Welding Competition",
-          "desc": "Showcase your arc welding expertise. Create strong, clean welds and demonstrate proper technique.",
-          "date": "March 13",
-          "time": "10:00 AM",
-          "venue": "Welding Shop",
+          "title": "ProTurn",
+          "subtitle": "Machining Event",
+          "desc": "Participants perform lathe operations such as facing, straight turning, step turning, and taper turning to machine a component as per the provided drawing.",
+          "date": "March 13, 2026",
+          "venue": "Machine Shop",
           "team": "Individual",
-          "rules": [
-            "All equipment provided",
-            "Safety gear mandatory",
-            "Judged on weld quality and appearance"
-          ]
+          "fee": "₹300",
+          "prize": "₹4,000",
+          "contacts": [
+            {
+              "name": "Abhishek PP",
+              "phone": "8129513242"
+            },
+            {
+              "name": "Abhinav M",
+              "phone": "7356875564"
+            }
+          ],
+          "activityPoints": true
         },
         {
           "id": "mech-5",
-          "title": "Mechanism Design Challenge",
-          "desc": "Design and build a working mechanical mechanism using provided materials to perform a specified task.",
-          "date": "March 13",
-          "time": "1:00 PM",
-          "venue": "Mech Lab",
-          "team": "2–3 members",
-          "rules": [
-            "Materials provided",
-            "Must be functional",
-            "Time limit: 2.5 hours"
-          ]
+          "title": "MechIQ",
+          "subtitle": "Quiz Competition",
+          "desc": "A curriculum-based quiz for mechanical students covering core subjects to test technical knowledge, concepts, and problem-solving skills through time-bound rounds.",
+          "date": "March 13, 2026",
+          "venue": "Drawing Hall",
+          "team": "Individual",
+          "fee": "₹100",
+          "prize": "₹2,000",
+          "contacts": [
+            {
+              "name": "Abhijith T P",
+              "phone": "8281129168"
+            },
+            {
+              "name": "Abidh Retheesh",
+              "phone": "8137971275"
+            }
+          ],
+          "activityPoints": true
         },
         {
           "id": "mech-6",
-          "title": "Technical Paper Presentation",
-          "desc": "Present your research on emerging topics in mechanical engineering to a panel of experts.",
-          "date": "March 13",
-          "time": "3:00 PM",
-          "venue": "Conference Room",
-          "team": "1–2 members",
-          "rules": [
-            "10 min presentation + 5 min Q&A",
-            "PPT mandatory",
-            "Topic must be pre-registered"
-          ]
+          "title": "Project Competition",
+          "subtitle": "Innovation Beyond Boundaries",
+          "desc": "An event highlighting interdepartmental engineering solutions. Open to all departments.",
+          "date": "March 12, 2026",
+          "venue": "Govt. Polytechnic College Kannur",
+          "team": "Team",
+          "fee": "₹300 per team",
+          "prize": "₹10,000",
+          "contacts": [
+            {
+              "name": "Abhijith T P",
+              "phone": "8281129168"
+            }
+          ],
+          "activityPoints": true,
+          "openToAll": true
+        },
+        {
+          "id": "mech-7",
+          "title": "Seminar Competition",
+          "subtitle": "Sustainable Development in the 21st Century",
+          "desc": "Exploring innovative strategies and technologies driving sustainable development in the 21st century.",
+          "date": "March 12, 2026",
+          "venue": "Govt. Polytechnic College Kannur",
+          "team": "Individual",
+          "fee": "₹100",
+          "prize": "₹3,000",
+          "contacts": [
+            {
+              "name": "Abhijith T P",
+              "phone": "8281129168"
+            }
+          ],
+          "activityPoints": true,
+          "openToAll": true
         }
       ]
     },
@@ -347,79 +623,151 @@
       "id": "textile",
       "name": "Textile Technology",
       "icon": "🧵",
-      "description": "The Textile Technology department weaves creativity into Tarang with unique events that blend technical knowledge with artistic design. Explore the science behind fabrics and fashion.",
+      "description": "The Textile Technology department weaves creativity into Tarang with fashion shows, design competitions, and sustainable drape fusion events.",
       "color": "#a855f7",
-      "pdf": "TARANG-GPC KANNUR-TEXTILE TECHNOLOGY.pdf",
+      "pdf": "TARANG-GPTC KANNUR-TEXTILE TECHNOLOGY.pdf",
       "departmentEvents": [
         {
           "id": "textile-1",
-          "title": "Fabric Identification Challenge",
-          "desc": "Identify different types of fabrics, fibers, and weave patterns through visual and tactile examination.",
-          "date": "March 12",
-          "time": "10:00 AM",
-          "venue": "Textile Lab 1",
-          "team": "Individual",
-          "rules": [
-            "Samples provided",
-            "Written answers",
-            "Time limit: 45 minutes"
-          ]
+          "title": "Incredible Indian Fashion Show",
+          "subtitle": "Cultural Fashion Showcase",
+          "desc": "A showcase of Indian culture through fashion, where contestants are judged on original costumes and creative presentations.",
+          "date": "March 11, 2026",
+          "venue": "Govt. Polytechnic College Kannur",
+          "team": "7–10 members",
+          "fee": "₹500",
+          "prize": "₹18,000",
+          "contacts": [
+            {
+              "name": "Shaan K",
+              "phone": "8714302429"
+            },
+            {
+              "name": "Aradhana K",
+              "phone": "9847259460"
+            },
+            {
+              "name": "Adheena K",
+              "phone": "8078899060"
+            },
+            {
+              "name": "Shiyara Sreejith",
+              "phone": "7510440679"
+            }
+          ],
+          "activityPoints": true
         },
         {
           "id": "textile-2",
-          "title": "Draping & Design Contest",
-          "desc": "Create an innovative garment design using draping techniques on a mannequin with provided fabrics.",
-          "date": "March 12",
-          "time": "12:00 PM",
-          "venue": "Design Studio",
-          "team": "2 members",
-          "rules": [
-            "Fabrics and tools provided",
-            "Theme based",
-            "Time limit: 2 hours"
-          ]
+          "title": "Fashion Sketch to Style",
+          "subtitle": "Fashion Illustration Contest",
+          "desc": "An on-site fashion illustration contest where participants create original fashion designs based on a specific theme.",
+          "date": "March 12, 2026",
+          "venue": "Govt. Polytechnic College Kannur",
+          "team": "Individual",
+          "fee": "₹30",
+          "prize": "₹4,500",
+          "contacts": [
+            {
+              "name": "Arjun M",
+              "phone": "9995335213"
+            },
+            {
+              "name": "Anugrah A B",
+              "phone": "9778472540"
+            }
+          ],
+          "activityPoints": true
         },
         {
           "id": "textile-3",
-          "title": "Textile Quiz",
-          "desc": "Test your knowledge covering textile fibers, spinning, weaving, dyeing, and fabric finishing processes.",
-          "date": "March 12",
-          "time": "2:30 PM",
-          "venue": "Seminar Hall A",
-          "team": "2–3 members",
-          "rules": [
-            "Prelims + Finals",
-            "Visual identification round",
-            "No reference materials"
-          ]
+          "title": "Pureform: A Sustainable Drape Fusion",
+          "subtitle": "Sustainable Design Competition",
+          "desc": "A design competition to create and drape an original outfit using only sustainable, recycled, or upcycled materials. The creation must be completed live.",
+          "date": "March 12, 2026",
+          "venue": "Govt. Polytechnic College Kannur",
+          "team": "Individual / Team",
+          "fee": "₹50",
+          "prize": "₹4,500",
+          "contacts": [
+            {
+              "name": "Vanush Sugash",
+              "phone": "8592006978"
+            },
+            {
+              "name": "Vinya K",
+              "phone": "7306585377"
+            }
+          ],
+          "activityPoints": true
         },
         {
           "id": "textile-4",
-          "title": "Natural Dyeing Workshop",
-          "desc": "Learn and demonstrate eco-friendly natural dyeing techniques using plant-based dyes on cotton fabric.",
-          "date": "March 13",
-          "time": "10:00 AM",
-          "venue": "Dyeing Lab",
-          "team": "2 members",
-          "rules": [
-            "Materials provided",
-            "Best results win prizes",
-            "Eco-friendliness valued"
-          ]
+          "title": "Design Decode",
+          "subtitle": "Brand & Logo Identification",
+          "desc": "A team event to identify brands, logos, and symbols within a specified time limit, testing observation and brand knowledge.",
+          "date": "March 13, 2026",
+          "venue": "Govt. Polytechnic College Kannur",
+          "team": "Team of 2",
+          "fee": "₹50",
+          "prize": "₹4,500",
+          "contacts": [
+            {
+              "name": "Amal K P",
+              "phone": "7356197323"
+            },
+            {
+              "name": "Aavya P",
+              "phone": "9061327151"
+            }
+          ],
+          "activityPoints": true
         },
         {
           "id": "textile-5",
-          "title": "Pattern Making Challenge",
-          "desc": "Create accurate garment patterns from given specifications. Precision and speed determine the winner.",
-          "date": "March 13",
-          "time": "1:00 PM",
-          "venue": "Textile Lab 2",
+          "title": "Project Competition",
+          "subtitle": "Innovation Beyond Boundaries",
+          "desc": "Interdisciplinary project competition open to all branches showcasing innovative engineering solutions.",
+          "date": "March 12, 2026",
+          "venue": "Govt. Polytechnic College Kannur",
+          "team": "Team",
+          "fee": "₹100",
+          "prize": "₹10,000",
+          "contacts": [
+            {
+              "name": "Sreesanth S",
+              "phone": "9048880407"
+            },
+            {
+              "name": "Joyal Shibu",
+              "phone": "8075950481"
+            }
+          ],
+          "activityPoints": true,
+          "openToAll": true
+        },
+        {
+          "id": "textile-6",
+          "title": "Seminar Competition",
+          "subtitle": "Sustainable Development in the 21st Century",
+          "desc": "Exploring innovative strategies and technologies driving sustainable development in the 21st century.",
+          "date": "March 12, 2026",
+          "venue": "Govt. Polytechnic College Kannur",
           "team": "Individual",
-          "rules": [
-            "Tools provided",
-            "Specifications given on spot",
-            "Time limit: 1.5 hours"
-          ]
+          "fee": "₹30",
+          "prize": "₹4,500",
+          "contacts": [
+            {
+              "name": "Navneetha Prabhanan",
+              "phone": "8304033407"
+            },
+            {
+              "name": "Adithya K P",
+              "phone": "8137840381"
+            }
+          ],
+          "activityPoints": true,
+          "openToAll": true
         }
       ]
     },
@@ -427,79 +775,55 @@
       "id": "wood",
       "name": "Wood & Paper Technology",
       "icon": "🪵",
-      "description": "The Wood & Paper Technology department showcases the art and science of wood craftsmanship and paper engineering. From furniture design to paper testing, explore sustainable material technologies.",
+      "description": "The Wood & Paper Technology department showcases the art and science of sustainable material technologies at Tarang 2026.",
       "color": "#22c55e",
-      "pdf": "TARANG-GPC KANNUR-WOOD AND PAPER TECHNOLOGY.pdf",
+      "pdf": "TARANG-GPTC KANNUR-WOOD AND PAPER TECHNOLOGY.pdf",
       "departmentEvents": [
         {
           "id": "wood-1",
-          "title": "Wood Carving Contest",
-          "desc": "Create intricate wood carvings using hand tools. Artistry and craftsmanship take center stage.",
-          "date": "March 12",
-          "time": "10:00 AM",
-          "venue": "Wood Workshop",
-          "team": "Individual",
-          "rules": [
-            "Tools and wood provided",
-            "Design theme given",
-            "Time limit: 3 hours"
-          ]
+          "title": "Project Competition",
+          "subtitle": "Innovation Beyond Boundaries",
+          "desc": "An event highlighting innovation through interdisciplinary projects. Open to all branches.",
+          "date": "March 12, 2026",
+          "venue": "Govt. Polytechnic College Kannur",
+          "team": "Team",
+          "fee": "₹100",
+          "prize": "₹10,000",
+          "contacts": [
+            {
+              "name": "Sreesanth S",
+              "phone": "9048880407"
+            },
+            {
+              "name": "Joyal Shibu",
+              "phone": "8075950481"
+            }
+          ],
+          "activityPoints": true,
+          "openToAll": true
         },
         {
           "id": "wood-2",
-          "title": "Furniture Design Challenge",
-          "desc": "Design a functional furniture piece using sustainable wood materials. Innovation meets sustainability.",
-          "date": "March 12",
-          "time": "11:30 AM",
-          "venue": "Design Lab",
-          "team": "2–3 members",
-          "rules": [
-            "Design on paper/CAD",
-            "Scale model optional",
-            "Judged on innovation and feasibility"
-          ]
-        },
-        {
-          "id": "wood-3",
-          "title": "Paper Testing Quiz",
-          "desc": "Test your knowledge of paper properties, pulping processes, and quality testing methodologies.",
-          "date": "March 12",
-          "time": "2:00 PM",
-          "venue": "Seminar Hall B",
-          "team": "2 members",
-          "rules": [
-            "Written + Practical rounds",
-            "Lab testing included",
-            "Instruments provided"
-          ]
-        },
-        {
-          "id": "wood-4",
-          "title": "Wood Identification Challenge",
-          "desc": "Identify different wood species through visual examination, grain patterns, and physical properties.",
-          "date": "March 13",
-          "time": "10:00 AM",
-          "venue": "Wood Lab",
+          "title": "Seminar Competition",
+          "subtitle": "Sustainable Development in the 21st Century",
+          "desc": "Exploring innovative strategies and technologies driving sustainable development in the 21st century.",
+          "date": "March 12, 2026",
+          "venue": "Govt. Polytechnic College Kannur",
           "team": "Individual",
-          "rules": [
-            "Specimens provided",
-            "Written + Verbal assessment",
-            "Time limit: 1 hour"
-          ]
-        },
-        {
-          "id": "wood-5",
-          "title": "Joinery Skills Competition",
-          "desc": "Demonstrate your woodworking joinery skills by creating precise wood joints using hand tools.",
-          "date": "March 13",
-          "time": "1:00 PM",
-          "venue": "Wood Workshop",
-          "team": "Individual",
-          "rules": [
-            "Tools provided",
-            "Joint type specified",
-            "Judged on precision and strength"
-          ]
+          "fee": "₹30",
+          "prize": "₹4,500",
+          "contacts": [
+            {
+              "name": "Jiju Prakashan",
+              "phone": "8086228497"
+            },
+            {
+              "name": "Akhilesh T M",
+              "phone": "8157864081"
+            }
+          ],
+          "activityPoints": true,
+          "openToAll": true
         }
       ]
     }
@@ -507,138 +831,670 @@
   "events": [
     {
       "id": "1",
-      "title": "Project Expo",
-      "desc": "Showcase innovative projects from all departments. Present your best engineering solutions to a panel of experts.",
+      "title": "Civil Brain Challenge",
+      "desc": "A technical quiz on core Civil Engineering concepts and problem-solving skills.",
       "category": "tech",
-      "badge": "Technical",
+      "badge": "Civil",
       "date": "March 12",
-      "team": "2–4 members"
+      "team": "Individual",
+      "fee": "₹30",
+      "prize": "₹4,500",
+      "department": "civil"
     },
     {
       "id": "2",
-      "title": "Quiz Competition",
-      "desc": "Test your knowledge across technology, science, and general engineering in this multi-round quiz battle.",
+      "title": "AutoCAD Home Planner",
+      "desc": "Drafting a residential building's plan, elevation, and section using AutoCAD.",
       "category": "tech",
-      "badge": "Technical",
+      "badge": "Civil",
       "date": "March 12",
-      "team": "2–3 members"
+      "team": "Team of 2",
+      "fee": "₹50",
+      "prize": "₹4,500",
+      "department": "civil"
     },
     {
       "id": "3",
-      "title": "Circuit Debugging",
-      "desc": "Find and fix faults in complex circuits within a time limit. Speed and precision are key!",
+      "title": "Paper Tower Challenge",
+      "desc": "Build the tallest stable, self-supporting tower using only newspapers and staples.",
       "category": "tech",
-      "badge": "Technical",
-      "date": "March 12",
-      "team": "Individual"
+      "badge": "Civil",
+      "date": "March 13",
+      "team": "Team of 2",
+      "fee": "₹60",
+      "prize": "₹4,500",
+      "department": "civil"
     },
     {
       "id": "4",
-      "title": "CAD Modelling",
-      "desc": "Design precision 3D models using CAD software. Creativity meets engineering accuracy.",
+      "title": "Stick Tech Bridge",
+      "desc": "Construct a bridge model from popsicle sticks and glue to hold maximum load.",
       "category": "tech",
-      "badge": "Technical",
-      "date": "March 12",
-      "team": "Individual"
+      "badge": "Civil",
+      "date": "March 13",
+      "team": "Team of 2",
+      "fee": "₹60",
+      "prize": "₹4,500",
+      "department": "civil"
     },
     {
       "id": "5",
-      "title": "Seminar Presentation",
-      "desc": "Present your research papers on emerging technologies and innovative engineering solutions.",
-      "category": "tech",
-      "badge": "Technical",
+      "title": "Workshop on SketchUp",
+      "desc": "A one-day workshop on 3D house modelling, plugins, and rendering using SketchUp.",
+      "category": "workshop",
+      "badge": "Workshop",
       "date": "March 13",
-      "team": "1–2 members"
+      "team": "Individual",
+      "fee": "₹70",
+      "department": "civil"
     },
     {
       "id": "6",
-      "title": "Bridge Building",
-      "desc": "Design and construct model bridges to withstand maximum load. Test your structural engineering skills.",
+      "title": "Electrical Quiz",
+      "desc": "A curriculum-based quiz for Electrical Engineering students to test core technical knowledge.",
       "category": "tech",
-      "badge": "Technical",
-      "date": "March 13",
-      "team": "2–3 members"
+      "badge": "EEE",
+      "date": "March 12",
+      "team": "Individual",
+      "fee": "₹30",
+      "prize": "₹4,500",
+      "department": "eee"
     },
     {
       "id": "7",
-      "title": "Line Follower Robot",
-      "desc": "Build autonomous robots that can follow a path with speed and precision.",
+      "title": "Network Puzzle",
+      "desc": "Timed logical and technical puzzles based on basic electric circuits.",
       "category": "tech",
-      "badge": "Technical",
-      "date": "March 13",
-      "team": "2–4 members"
+      "badge": "EEE",
+      "date": "March 12",
+      "team": "Individual",
+      "fee": "₹30",
+      "prize": "₹4,500",
+      "department": "eee"
     },
     {
       "id": "8",
-      "title": "Treasure Hunt",
-      "desc": "A thrilling campus-wide hunt combining tech puzzles, riddles, and physical challenges.",
-      "category": "flagship",
-      "badge": "Flagship",
-      "date": "March 12",
-      "team": "3–4 members"
+      "title": "Electrical Wiring Competition",
+      "desc": "Complete the electrical wiring task as per the given conditions within the allotted time.",
+      "category": "tech",
+      "badge": "EEE",
+      "date": "March 13",
+      "team": "Team of 2",
+      "fee": "₹60",
+      "prize": "₹4,500",
+      "department": "eee"
     },
     {
       "id": "9",
-      "title": "Nrityanjali — Group Dance",
-      "desc": "Showcase your dance moves in this group dance competition spanning classical, folk, and contemporary styles.",
-      "category": "cultural",
-      "badge": "Cultural",
+      "title": "Electrical CAD Competition",
+      "desc": "Design accurate electrical layouts and schematics in CAD.",
+      "category": "tech",
+      "badge": "EEE",
       "date": "March 13",
-      "team": "6–12 members"
+      "team": "Individual",
+      "fee": "₹30",
+      "prize": "₹4,500",
+      "department": "eee"
     },
     {
       "id": "10",
-      "title": "Solo Singing",
-      "desc": "Let your voice shine! Perform any song of your choice and capture the hearts of the audience.",
-      "category": "cultural",
-      "badge": "Cultural",
-      "date": "March 12",
-      "team": "Individual"
+      "title": "Arduino Programming Workshop",
+      "desc": "Learn Arduino basics through hands-on coding, sensor interfacing, and building real projects.",
+      "category": "workshop",
+      "badge": "Workshop",
+      "date": "March 13",
+      "team": "Individual",
+      "fee": "₹70",
+      "department": "eee"
     },
     {
       "id": "11",
-      "title": "Mime & Skit",
-      "desc": "Tell compelling stories through mime or short skits. Creativity and expression take center stage.",
-      "category": "cultural",
-      "badge": "Cultural",
-      "date": "March 13",
-      "team": "5–10 members"
+      "title": "Hot Joint",
+      "desc": "Assemble a given circuit on a general-purpose PCB using proper soldering techniques.",
+      "category": "tech",
+      "badge": "ECE",
+      "date": "March 12",
+      "team": "Individual",
+      "fee": "₹30",
+      "prize": "₹4,500",
+      "department": "ece"
     },
     {
       "id": "12",
-      "title": "Photography Contest",
-      "desc": "Capture the spirit of Tarang through your lens. Best shots across categories win prizes.",
-      "category": "cultural",
-      "badge": "Cultural",
-      "date": "Both Days",
-      "team": "Individual"
+      "title": "BugSlayer.py",
+      "desc": "A timed contest focused on debugging and optimizing Python programs.",
+      "category": "tech",
+      "badge": "ECE",
+      "date": "March 12",
+      "team": "Individual",
+      "fee": "₹30",
+      "prize": "₹4,500",
+      "department": "ece"
     },
     {
       "id": "13",
-      "title": "Fashion Show",
-      "desc": "Walk the ramp with confidence and style. Showcase creativity in costume design and performance.",
-      "category": "flagship",
-      "badge": "Flagship",
+      "title": "Trace Race",
+      "desc": "PCB Designing competition using Proteus 8 — Circuit schematic + PCB Layout design.",
+      "category": "tech",
+      "badge": "ECE",
       "date": "March 13",
-      "team": "8–12 members"
+      "team": "Individual",
+      "fee": "₹30",
+      "prize": "₹4,500",
+      "department": "ece"
     },
     {
       "id": "14",
-      "title": "Art & Poster Making",
-      "desc": "Express your artistic vision on canvas. Themes will be revealed on the spot.",
-      "category": "cultural",
-      "badge": "Cultural",
+      "title": "Metal Fab Maestro",
+      "desc": "Fabricate a given sheet metal component using marking, cutting, bending, forming, and joining operations.",
+      "category": "tech",
+      "badge": "Mech",
       "date": "March 12",
-      "team": "Individual"
+      "team": "Team",
+      "fee": "₹300",
+      "prize": "₹4,000",
+      "department": "mech"
     },
     {
-      "title": "test 1",
-      "desc": "this is for testing only",
+      "id": "15",
+      "title": "MechCAD Master",
+      "desc": "2D and 3D machine component drawing in AutoCAD, adhering to BIS standards.",
       "category": "tech",
-      "badge": "tech",
-      "date": "12-03-2026",
-      "team": "1 person",
-      "id": "1772145820778"
+      "badge": "Mech",
+      "date": "March 12",
+      "team": "Individual",
+      "fee": "₹300",
+      "prize": "₹4,000",
+      "department": "mech"
+    },
+    {
+      "id": "16",
+      "title": "Workshop on Additive Manufacturing",
+      "desc": "A one-day workshop on additive manufacturing and 3D printing technologies.",
+      "category": "workshop",
+      "badge": "Workshop",
+      "date": "March 13",
+      "team": "Individual",
+      "fee": "₹150",
+      "department": "mech"
+    },
+    {
+      "id": "17",
+      "title": "ProTurn",
+      "desc": "Perform lathe operations — facing, straight turning, step turning, and taper turning to machine a component.",
+      "category": "tech",
+      "badge": "Mech",
+      "date": "March 13",
+      "team": "Individual",
+      "fee": "₹300",
+      "prize": "₹4,000",
+      "department": "mech"
+    },
+    {
+      "id": "18",
+      "title": "MechIQ",
+      "desc": "A curriculum-based quiz covering core Mechanical subjects through time-bound rounds.",
+      "category": "tech",
+      "badge": "Mech",
+      "date": "March 13",
+      "team": "Individual",
+      "fee": "₹100",
+      "prize": "₹2,000",
+      "department": "mech"
+    },
+    {
+      "id": "19",
+      "title": "Incredible Indian Fashion Show",
+      "desc": "A showcase of Indian culture through fashion with original costumes and creative presentations.",
+      "category": "flagship",
+      "badge": "Flagship",
+      "date": "March 11",
+      "team": "7–10 members",
+      "fee": "₹500",
+      "prize": "₹18,000",
+      "department": "textile"
+    },
+    {
+      "id": "20",
+      "title": "Fashion Sketch to Style",
+      "desc": "An on-site fashion illustration contest where participants create original fashion designs.",
+      "category": "tech",
+      "badge": "Textile",
+      "date": "March 12",
+      "team": "Individual",
+      "fee": "₹30",
+      "prize": "₹4,500",
+      "department": "textile"
+    },
+    {
+      "id": "21",
+      "title": "Pureform: A Sustainable Drape Fusion",
+      "desc": "Create and drape an original outfit using only sustainable, recycled, or upcycled materials — live!",
+      "category": "tech",
+      "badge": "Textile",
+      "date": "March 12",
+      "team": "Individual / Team",
+      "fee": "₹50",
+      "prize": "₹4,500",
+      "department": "textile"
+    },
+    {
+      "id": "22",
+      "title": "Design Decode",
+      "desc": "Identify brands, logos, and symbols within a specified time limit. Test your observation and brand knowledge!",
+      "category": "tech",
+      "badge": "Textile",
+      "date": "March 13",
+      "team": "Team of 2",
+      "fee": "₹50",
+      "prize": "₹4,500",
+      "department": "textile"
+    },
+    {
+      "id": "23",
+      "title": "Project Competition",
+      "desc": "Innovation Beyond Boundaries — Interdisciplinary project competition open to all branches.",
+      "category": "flagship",
+      "badge": "Flagship",
+      "date": "March 12",
+      "team": "Team",
+      "fee": "₹100",
+      "prize": "₹10,000"
+    },
+    {
+      "id": "24",
+      "title": "Seminar Competition",
+      "desc": "Sustainable Development in the 21st Century — exploring innovative strategies for a sustainable future.",
+      "category": "flagship",
+      "badge": "Flagship",
+      "date": "March 13",
+      "team": "Individual",
+      "fee": "₹30",
+      "prize": "₹4,500"
+    },
+    {
+      "id": "creative-photography",
+      "title": "Photography Contest",
+      "desc": "Live mobile photography contest — capture the spirit of Tarang on campus. Open to public!",
+      "category": "creative",
+      "badge": "Creative",
+      "date": "March 12 & 13",
+      "team": "Individual",
+      "openToPublic": true
+    },
+    {
+      "id": "creative-poster",
+      "title": "Poster Design Contest",
+      "desc": "Create stunning poster designs based on a theme revealed at the spot. Open to public!",
+      "category": "creative",
+      "badge": "Creative",
+      "date": "March 12 & 13",
+      "team": "Individual",
+      "openToPublic": true
+    },
+    {
+      "id": "creative-reels",
+      "title": "Shorts / Reels Contest",
+      "desc": "Create a short video (30–60 seconds) shot entirely on campus. Open to public!",
+      "category": "creative",
+      "badge": "Creative",
+      "date": "March 12 & 13",
+      "team": "Individual",
+      "openToPublic": true
+    },
+    {
+      "id": "creative-glass-bottle",
+      "title": "Glass Bottle Art Competition",
+      "desc": "Transform transparent glass bottles into works of art with a theme given on the spot. Open to public!",
+      "category": "creative",
+      "badge": "Creative",
+      "date": "March 12 & 13",
+      "team": "Individual",
+      "openToPublic": true
+    },
+    {
+      "id": "creative-mehndi",
+      "title": "Mehndi Contest",
+      "desc": "Showcase intricate mehndi artistry — applied to both hands up to forearm. Team of two. Open to public!",
+      "category": "creative",
+      "badge": "Creative",
+      "date": "March 12 & 13",
+      "team": "Team of 2",
+      "openToPublic": true
+    },
+    {
+      "id": "creative-clay",
+      "title": "Clay Modelling",
+      "desc": "Sculpt creative clay models using only clay and permitted materials. Duration: 3 hours. Open to public!",
+      "category": "creative",
+      "badge": "Creative",
+      "date": "March 12 & 13",
+      "team": "Individual",
+      "openToPublic": true
+    },
+    {
+      "id": "creative-face-painting",
+      "title": "Face Painting Contest",
+      "desc": "Transform faces into art using skin-friendly paints. Team of two — artist and model. Open to public!",
+      "category": "creative",
+      "badge": "Creative",
+      "date": "March 12 & 13",
+      "team": "Team of 2",
+      "openToPublic": true
+    },
+    {
+      "id": "creative-caricature",
+      "title": "Caricature Contest",
+      "desc": "Create live comical drawings of models provided at the spot. Pencils only! Open to public!",
+      "category": "creative",
+      "badge": "Creative",
+      "date": "March 12 & 13",
+      "team": "Individual",
+      "openToPublic": true
+    },
+    {
+      "id": "creative-graffiti",
+      "title": "Graffiti Contest",
+      "desc": "Express your street art skills on the allotted space. Bring your own resources. Open to public!",
+      "category": "creative",
+      "badge": "Creative",
+      "date": "March 12 & 13",
+      "team": "Individual",
+      "openToPublic": true
+    },
+    {
+      "id": "cultural-karaoke",
+      "title": "Karaoke Song Competition",
+      "desc": "Sing your heart out! Mandatory live singing, 4–8 minutes, any language. Open to public!",
+      "category": "cultural",
+      "badge": "Cultural",
+      "date": "March 12 & 13",
+      "team": "Individual",
+      "openToPublic": true
+    },
+    {
+      "id": "cultural-breakdance",
+      "title": "Break Dance Competition",
+      "desc": "Show your best moves in this high-energy dance battle. Groups of 3–15 members. Open to public!",
+      "category": "cultural",
+      "badge": "Cultural",
+      "date": "March 12 & 13",
+      "team": "Group (3–15)",
+      "openToPublic": true
+    }
+  ],
+  "creativeEvents": [
+    {
+      "id": "creative-photography",
+      "title": "Photography Contest",
+      "subtitle": "Capture the Moment",
+      "desc": "Live mobile photography contest — capture the spirit of Tarang through your lens. Only one photo should be submitted. Shot entirely on campus.",
+      "date": "March 12 & 13, 2026",
+      "venue": "Govt. Polytechnic College Kannur",
+      "team": "Individual",
+      "contacts": [
+        {
+          "name": "Contact 1",
+          "phone": "8078720003"
+        },
+        {
+          "name": "Contact 2",
+          "phone": "9074951806"
+        }
+      ],
+      "openToPublic": true,
+      "rules": [
+        "Live mobile photography only",
+        "Only one photo should be submitted",
+        "Shot entirely on Campus"
+      ]
+    },
+    {
+      "id": "creative-poster",
+      "title": "Poster Design Contest",
+      "subtitle": "Design Your Vision",
+      "desc": "Create stunning poster designs based on a theme revealed at the spot. Duration: 90 minutes. Theme and A2 sheet will be given at the spot. Contestants should bring the required items.",
+      "date": "March 12 & 13, 2026",
+      "venue": "Govt. Polytechnic College Kannur",
+      "team": "Individual",
+      "contacts": [
+        {
+          "name": "Contact 1",
+          "phone": "8714117679"
+        },
+        {
+          "name": "Contact 2",
+          "phone": "9446326437"
+        }
+      ],
+      "openToPublic": true,
+      "rules": [
+        "Duration: 90 minutes",
+        "Theme and A2 sheet will be given at the spot",
+        "Contestants should bring the required items"
+      ]
+    },
+    {
+      "id": "creative-reels",
+      "title": "Shorts / Reels Contest",
+      "subtitle": "Create & Captivate",
+      "desc": "Create a short video (30–60 seconds) shot entirely on campus. Showcase your creativity in storytelling and editing.",
+      "date": "March 12 & 13, 2026",
+      "venue": "Govt. Polytechnic College Kannur",
+      "team": "Individual",
+      "contacts": [
+        {
+          "name": "Contact 1",
+          "phone": "8848671883"
+        },
+        {
+          "name": "Contact 2",
+          "phone": "8589827996"
+        }
+      ],
+      "openToPublic": true,
+      "rules": [
+        "Duration: 30–60 seconds",
+        "Shot entirely on Campus"
+      ]
+    },
+    {
+      "id": "creative-glass-bottle",
+      "title": "Glass Bottle Art Competition",
+      "subtitle": "Art in a Bottle",
+      "desc": "Transform transparent glass bottles into works of art. Theme given on the spot. Time duration: 2 hours. Only transparent bottles are permitted. Pre-painted bottles are not allowed.",
+      "date": "March 12 & 13, 2026",
+      "venue": "Govt. Polytechnic College Kannur",
+      "team": "Individual",
+      "contacts": [
+        {
+          "name": "Contact 1",
+          "phone": "8590086387"
+        },
+        {
+          "name": "Contact 2",
+          "phone": "9207416225"
+        }
+      ],
+      "openToPublic": true,
+      "rules": [
+        "Theme given on the spot",
+        "Time duration: 2 hours",
+        "Only transparent bottles are permitted",
+        "Pre-painted bottles are not allowed"
+      ]
+    },
+    {
+      "id": "creative-mehndi",
+      "title": "Mehndi Contest",
+      "subtitle": "Artistry on Hands",
+      "desc": "Showcase intricate mehndi artistry — applied to both hands up to the forearm. Team of two members: artist and model.",
+      "date": "March 12 & 13, 2026",
+      "venue": "Govt. Polytechnic College Kannur",
+      "team": "Team of 2 (artist + model)",
+      "contacts": [
+        {
+          "name": "Contact 1",
+          "phone": "8590566544"
+        },
+        {
+          "name": "Contact 2",
+          "phone": "7090365545"
+        }
+      ],
+      "openToPublic": true,
+      "rules": [
+        "Applied to both hands up to forearm",
+        "Team of two members — artist and model"
+      ]
+    },
+    {
+      "id": "creative-clay",
+      "title": "Clay Modelling",
+      "subtitle": "Sculpt Your Imagination",
+      "desc": "Sculpt creative clay models using only clay and permitted materials. Model will be provided at the spot. Duration: 3 hours.",
+      "date": "March 12 & 13, 2026",
+      "venue": "Govt. Polytechnic College Kannur",
+      "team": "Individual",
+      "contacts": [
+        {
+          "name": "Contact 1",
+          "phone": "8606765177"
+        },
+        {
+          "name": "Contact 2",
+          "phone": "8547152529"
+        }
+      ],
+      "openToPublic": true,
+      "rules": [
+        "Only clay and permitted materials can be used",
+        "Model will be provided at the spot",
+        "Duration: 3 hours"
+      ]
+    },
+    {
+      "id": "creative-face-painting",
+      "title": "Face Painting Contest",
+      "subtitle": "Paint the Face, Tell a Story",
+      "desc": "Transform faces into living art using skin-friendly paints. Team of two — artist and model. Candidates must bring their own skin-friendly paints.",
+      "date": "March 12 & 13, 2026",
+      "venue": "Govt. Polytechnic College Kannur",
+      "team": "Team of 2 (artist + model)",
+      "contacts": [
+        {
+          "name": "Contact 1",
+          "phone": "6238793602"
+        },
+        {
+          "name": "Contact 2",
+          "phone": "8590087897"
+        }
+      ],
+      "openToPublic": true,
+      "rules": [
+        "Skin friendly paints of own must be used by candidates",
+        "Team of two — artist and model"
+      ]
+    },
+    {
+      "id": "creative-caricature",
+      "title": "Caricature Contest",
+      "subtitle": "Comedy in Pencil Strokes",
+      "desc": "A live comical creation of a model provided at the spot. Pencils are the only permitted medium.",
+      "date": "March 12 & 13, 2026",
+      "venue": "Govt. Polytechnic College Kannur",
+      "team": "Individual",
+      "contacts": [
+        {
+          "name": "Contact 1",
+          "phone": "7907126280"
+        },
+        {
+          "name": "Contact 2",
+          "phone": "8590681293"
+        }
+      ],
+      "openToPublic": true,
+      "rules": [
+        "A live comical creation of model provided at spot",
+        "Pencils are only permitted"
+      ]
+    },
+    {
+      "id": "creative-graffiti",
+      "title": "Graffiti Contest",
+      "subtitle": "Street Art Unleashed",
+      "desc": "Express your street art skills on the allotted space. Participants should come with all required resources.",
+      "date": "March 12 & 13, 2026",
+      "venue": "Govt. Polytechnic College Kannur",
+      "team": "Individual",
+      "contacts": [
+        {
+          "name": "Contact 1",
+          "phone": "6238786140"
+        },
+        {
+          "name": "Contact 2",
+          "phone": "9746546602"
+        }
+      ],
+      "openToPublic": true,
+      "rules": [
+        "Participants should come with all the required resources",
+        "Use only the space allotted for the competition"
+      ]
+    }
+  ],
+  "culturalEvents": [
+    {
+      "id": "cultural-karaoke",
+      "title": "Karaoke Song Competition",
+      "subtitle": "Sing Your Heart Out",
+      "desc": "Mandatory live singing. Song duration: 4 to 8 minutes. Songs of any language can be performed.",
+      "date": "March 12 & 13, 2026",
+      "venue": "Govt. Polytechnic College Kannur",
+      "team": "Individual",
+      "contacts": [
+        {
+          "name": "Contact 1",
+          "phone": "9074405485"
+        },
+        {
+          "name": "Contact 2",
+          "phone": "8848716050"
+        }
+      ],
+      "openToPublic": true,
+      "rules": [
+        "Song duration: 4 to 8 minutes",
+        "Mandatory live singing",
+        "Songs of any language can be performed"
+      ]
+    },
+    {
+      "id": "cultural-breakdance",
+      "title": "Break Dance Competition",
+      "subtitle": "Dance Battle Royale",
+      "desc": "Show your best moves in this high-energy dance battle. Duration: 3–7 minutes. Group size: min 3, max 15.",
+      "date": "March 12 & 13, 2026",
+      "venue": "Govt. Polytechnic College Kannur",
+      "team": "Group (3–15 members)",
+      "contacts": [
+        {
+          "name": "Contact 1",
+          "phone": "9074405485"
+        },
+        {
+          "name": "Contact 2",
+          "phone": "8848716050"
+        }
+      ],
+      "openToPublic": true,
+      "rules": [
+        "Duration: 3–7 minutes",
+        "Group size: minimum 3, maximum 15"
+      ]
     }
   ],
   "schedule": [
@@ -653,37 +1509,32 @@
         {
           "time": "10:00 AM",
           "name": "Technical Events Begin",
-          "desc": "Project Expo, Quiz, Circuit Debugging, CAD"
+          "desc": "Civil Brain Challenge, AutoCAD Home Planner, Metal Fab Maestro, MechCAD Master, Electrical Quiz, Network Puzzle, Hot Joint, BugSlayer.py, Fashion Sketch to Style, Pureform"
         },
         {
-          "time": "10:30 AM",
-          "name": "Art & Poster Making",
-          "desc": "Spot theme art competition"
+          "time": "10:00 AM",
+          "name": "Creative & Cultural Events",
+          "desc": "Photography Contest, Poster Design, Glass Bottle Art, Mehndi Contest, Clay Modelling, Face Painting, Caricature, Graffiti, Karaoke, Break Dance — Open to public"
+        },
+        {
+          "time": "10:00 AM",
+          "name": "Project Competition",
+          "desc": "Innovation Beyond Boundaries — Open to all branches"
         },
         {
           "time": "11:00 AM",
-          "name": "Treasure Hunt",
-          "desc": "Campus-wide puzzle adventure"
-        },
-        {
-          "time": "12:00 PM",
-          "name": "Solo Singing Prelims",
-          "desc": "Singing auditions and selection"
+          "name": "Seminar Competition",
+          "desc": "Sustainable Development in the 21st Century"
         },
         {
           "time": "2:00 PM",
-          "name": "Department Tech Events",
+          "name": "Department Events Continue",
           "desc": "Department-wise technical competitions"
-        },
-        {
-          "time": "4:00 PM",
-          "name": "Photography Walk",
-          "desc": "Campus photo challenge begins"
         },
         {
           "time": "5:00 PM",
           "name": "Cultural Evening",
-          "desc": "Open stage performances and jamming"
+          "desc": "Open stage performances and entertainment"
         }
       ]
     },
@@ -692,41 +1543,36 @@
       "events": [
         {
           "time": "9:30 AM",
-          "name": "Paper Presentations",
-          "desc": "Research paper competition"
+          "name": "Day 2 Events Begin",
+          "desc": "Paper Tower Challenge, Stick Tech Bridge, Electrical Wiring, Electrical CAD, Trace Race, ProTurn, MechIQ, Design Decode"
         },
         {
           "time": "10:00 AM",
-          "name": "Bridge Building & Robotics",
-          "desc": "Bridge Building, Line Follower Robot"
+          "name": "Creative & Cultural Events Continue",
+          "desc": "Shorts/Reels Contest, Photography, and more creative events — Open to public"
+        },
+        {
+          "time": "10:00 AM",
+          "name": "Workshops",
+          "desc": "SketchUp Workshop, Arduino Programming Workshop, Additive Manufacturing Workshop"
         },
         {
           "time": "11:00 AM",
-          "name": "Mime & Skit",
-          "desc": "Drama and mime performances"
+          "name": "Seminar Competition",
+          "desc": "Sustainable Development in the 21st Century"
         },
         {
-          "time": "1:00 PM",
-          "name": "Solo Singing Finals",
-          "desc": "Final round of singing competition"
-        },
-        {
-          "time": "2:30 PM",
-          "name": "Group Dance — Nrityanjali",
-          "desc": "Grand inter-department dance battle"
+          "time": "2:00 PM",
+          "name": "Department Events Continue",
+          "desc": "Department-wise technical competitions"
         },
         {
           "time": "4:00 PM",
-          "name": "Fashion Show",
-          "desc": "The grand ramp walk showcase"
-        },
-        {
-          "time": "5:30 PM",
           "name": "Awards & Prize Distribution",
           "desc": "Valedictory function with prizes"
         },
         {
-          "time": "6:30 PM",
+          "time": "5:30 PM",
           "name": "Closing Ceremony",
           "desc": "Grand finale and vote of thanks"
         }
@@ -736,51 +1582,109 @@
   "team": [
     {
       "id": "1",
-      "name": "BIJU KT",
-      "role": "FEST DIRECTOR",
-      "initials": "FD"
+      "name": "Pramod Chathampilli",
+      "designation": "Principal",
+      "role": "Patron",
+      "initials": "PC",
+      "image": "pramod.jpg"
     },
     {
       "id": "2",
-      "name": "Tech Head",
-      "role": "Technical Events",
-      "initials": "TH"
+      "name": "BIJU KT",
+      "designation": "Demonstrator in WP",
+      "role": "Fest Director",
+      "initials": "FD",
+      "image": "biju.jpeg"
     },
     {
       "id": "3",
-      "name": "Cultural Head",
-      "role": "Cultural Events",
-      "initials": "CH"
+      "name": "Rajesh OK",
+      "designation": "Lecturer in EEE",
+      "role": "Fest Convener",
+      "initials": "RO",
+      "image": "rajesh.jpeg"
     },
     {
       "id": "4",
-      "name": "Design Lead",
-      "role": "Creative & Design",
-      "initials": "DL"
+      "name": "Divesh Kumar C",
+      "designation": "Lecturer in Mech Engg",
+      "role": "Joint Convener",
+      "initials": "JC",
+      "image": "divesh.jpeg"
     },
     {
       "id": "5",
+      "name": "Lijina K",
+      "designation": "Lecturer in Electronics",
+      "role": "Joint Convener",
+      "initials": "JC",
+      "image": "lijina.png"
+    },
+    {
+      "id": "6",
+      "name": "Sarath D",
+      "designation": "Lecturer in Civil Engg",
+      "role": "Tech Head",
+      "initials": "TH",
+      "image": "sarath.jpg"
+    },
+    {
+      "id": "7",
+      "name": "Satheesh Kumar TK",
+      "designation": "Lecturer in WP",
+      "role": "Event Management",
+      "initials": "SK",
+      "image": "satheesh.jpg"
+    },
+    {
+      "id": "8",
+      "name": "Rajesh NP",
+      "designation": "Lecturer in Mech Engg",
+      "role": "Cultural Head",
+      "initials": "RN",
+      "image": "rajesh_np.jpg"
+    },
+    {
+      "id": "9",
+      "name": "Divyathej MV",
+      "designation": "Guest Lecturer in WP",
+      "role": "Design Head",
+      "initials": "DM",
+      "image": "divyathej.jpeg"
+    },
+    {
+      "id": "10",
+      "name": "Nidhin Narayanan",
+      "designation": "Lecturer in WP",
+      "role": "Creative Head",
+      "initials": "NN",
+      "image": "nidhin.jpeg"
+    },
+    {
+      "id": "11",
       "name": "Sponsorship Head",
       "role": "Sponsorship & PR",
       "initials": "SH"
     },
     {
-      "id": "6",
+      "id": "12",
       "name": "Logistics Head",
       "role": "Logistics & Planning",
       "initials": "LH"
     },
     {
-      "id": "7",
+      "id": "13",
       "name": "Media Head",
       "role": "Photography & Media",
       "initials": "MH"
     },
     {
-      "id": "8",
-      "name": "Web Team Lead",
-      "role": "Website & Digital",
-      "initials": "WT"
+      "id": "14",
+      "name": "Vinayak K",
+      "designation": "Lecturer in WP",
+      "role": "Web Team Lead",
+      "initials": "WT",
+      "image": "vinayak.jpeg"
     }
   ],
   "faq": [
@@ -797,7 +1701,7 @@
     {
       "id": "3",
       "question": "Is there a registration fee?",
-      "answer": "Most of the events have a fee of Rs 30/-. Some events may have a nominal fee difference."
+      "answer": "Yes, registration fees vary by event — typically ₹30 for quizzes and seminars, ₹50–₹100 for competitions, and ₹70–₹150 for workshops."
     },
     {
       "id": "4",
@@ -811,16 +1715,14 @@
     },
     {
       "id": "6",
+      "question": "Are Creative and Cultural events open to public?",
+      "answer": "Yes! All Creative events (Photography, Poster Design, Shorts/Reels, Glass Bottle Art, Mehndi, Clay Modelling, Face Painting, Caricature, Graffiti) and Cultural events (Karaoke, Break Dance) are open to the general public. No college ID is required."
+    },
+    {
+      "id": "7",
       "question": "How are the events organized?",
-      "answer": "Day 1 focuses on technical events, quizzes, art, and prelims. Day 2 features finals, cultural performances, fashion show, and the grand closing ceremony."
+      "answer": "Events are spread across both days. Technical events include department-wise competitions. Creative & Cultural events are open to all and run in parallel. Workshops run on Day 2."
     }
   ],
-  "customPages": [
-    {
-      "title": "Technical events",
-      "slug": "https://gptckannur.ac.in/index.php/tarang-26/Technical events",
-      "content": "These are the various technical events conducted by different Departments of GPTC Kannur as a part of Tarang ",
-      "id": "1772184136339"
-    }
-  ]
+  "customPages": []
 }

@@ -1,5 +1,5 @@
 /* ============================================
-   TARANG 2026 - GPC Kannur
+   TARANG 2026 - GPTC Kannur
    The Spectrum of Technology and Culture
    Theme: Warm Flame / Navy / Gold
    ============================================ */
@@ -743,10 +743,8 @@ ol {
 
 /* Scroll indicator */
 .scroll-indicator {
-    position: absolute;
-    bottom: 35px;
-    left: 50%;
-    transform: translateX(-50%);
+    position: relative;
+    margin: 60px auto 0;
     display: flex;
     flex-direction: column;
     align-items: center;

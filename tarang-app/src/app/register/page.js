@@ -257,14 +257,14 @@ export default function RegisterPage() {
                                     </svg>
                                 </div>
                                 <h3 style={{ background: 'linear-gradient(90deg, #fff, #ffddcc)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>
-                                    Cultural Events
+                                    Cultural and Creative Events
                                 </h3>
                                 <p>
                                     Let your creativity shine! Register for Dance, Music, Fine Arts, Photography, and a variety of spectacular stage performances.
                                 </p>
                             </div>
                             <div>
-                                <a href="https://forms.gle/YOUR_CULTURAL_FORM_LINK" target="_blank" rel="noopener noreferrer" className="reg-btn cult-btn">
+                                <a href="https://forms.gle/JAtWKDSjsPRA5JtE9" target="_blank" rel="noopener noreferrer" className="reg-btn cult-btn">
                                     <span>Register Now</span>
                                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
                                 </a>

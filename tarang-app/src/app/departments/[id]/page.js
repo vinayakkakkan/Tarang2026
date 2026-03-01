@@ -12,7 +12,7 @@ export async function generateMetadata({ params }) {
     const dept = siteData.departments.find(d => d.id === id);
     if (!dept) return {};
     return {
-        title: `${dept.name} Events — Tarang 2026 | GPC Kannur`,
+        title: `${dept.name} Events — Tarang 2026 | GPTC Kannur`,
         description: dept.description,
     };
 }
@@ -27,8 +27,9 @@ export default async function DepartmentPage({ params }) {
     const prevDept = deptIndex > 0 ? siteData.departments[deptIndex - 1] : null;
     const nextDept = deptIndex < siteData.departments.length - 1 ? siteData.departments[deptIndex + 1] : null;
 
-    const day1Events = dept.departmentEvents.filter(e => e.date === 'March 12');
-    const day2Events = dept.departmentEvents.filter(e => e.date === 'March 13');
+    const day1Events = dept.departmentEvents.filter(e => e.date && e.date.includes('March 12'));
+    const day2Events = dept.departmentEvents.filter(e => e.date && e.date.includes('March 13'));
+    const otherEvents = dept.departmentEvents.filter(e => e.date && !e.date.includes('March 12') && !e.date.includes('March 13'));
 
     return (
         <>
@@ -122,43 +123,35 @@ export default async function DepartmentPage({ params }) {
                             </div>
                             <div className="dept-events-grid">
                                 {day1Events.map((event, i) => (
-                                    <div
+                                    <Link
                                         key={event.id}
+                                        href={`/events/${event.id}`}
                                         className="dept-event-card"
-                                        style={{ '--dept-color': dept.color, animationDelay: `${i * 0.08}s` }}
+                                        style={{ '--dept-color': dept.color, animationDelay: `${i * 0.08}s`, textDecoration: 'none', color: 'inherit' }}
                                     >
                                         <div className="dept-event-card-top">
                                             <div className="dept-event-card-icon-area" style={{ '--dept-color': dept.color }}>
                                                 <span>{dept.icon}</span>
                                             </div>
-                                            <div className="dept-event-card-time">
-                                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10" /><polyline points="12 6 12 12 16 14" /></svg>
-                                                {event.time}
-                                            </div>
+                                            {event.time && (
+                                                <div className="dept-event-card-time">
+                                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10" /><polyline points="12 6 12 12 16 14" /></svg>
+                                                    {event.time}
+                                                </div>
+                                            )}
                                         </div>
                                         <h4 className="dept-event-card-title">{event.title}</h4>
+                                        {event.subtitle && <div style={{ fontSize: '0.78rem', color: 'var(--flame-orange)', fontWeight: 600, marginBottom: 8 }}>{event.subtitle}</div>}
                                         <p className="dept-event-card-desc">{event.desc}</p>
                                         <div className="dept-event-card-details">
                                             <div className="dept-event-card-detail">
-                                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" /><circle cx="12" cy="10" r="3" /></svg>
-                                                {event.venue}
-                                            </div>
-                                            <div className="dept-event-card-detail">
-                                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" /><circle cx="9" cy="7" r="4" /><path d="M23 21v-2a4 4 0 00-3-3.87" /><path d="M16 3.13a4 4 0 010 7.75" /></svg>
+                                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" /><circle cx="9" cy="7" r="4" /></svg>
                                                 {event.team}
                                             </div>
+                                            {event.fee && <div className="dept-event-card-detail">💰 {event.fee}</div>}
+                                            {event.prize && <div className="dept-event-card-detail">🏆 {event.prize}</div>}
                                         </div>
-                                        {event.rules && event.rules.length > 0 && (
-                                            <div className="dept-event-card-rules">
-                                                <div className="dept-event-card-rules-title">Rules & Info</div>
-                                                <ul>
-                                                    {event.rules.map((rule, ri) => (
-                                                        <li key={ri}>{rule}</li>
-                                                    ))}
-                                                </ul>
-                                            </div>
-                                        )}
-                                    </div>
+                                    </Link>
                                 ))}
                             </div>
                         </div>
@@ -173,43 +166,35 @@ export default async function DepartmentPage({ params }) {
                             </div>
                             <div className="dept-events-grid">
                                 {day2Events.map((event, i) => (
-                                    <div
+                                    <Link
                                         key={event.id}
+                                        href={`/events/${event.id}`}
                                         className="dept-event-card"
-                                        style={{ '--dept-color': dept.color, animationDelay: `${i * 0.08}s` }}
+                                        style={{ '--dept-color': dept.color, animationDelay: `${i * 0.08}s`, textDecoration: 'none', color: 'inherit' }}
                                     >
                                         <div className="dept-event-card-top">
                                             <div className="dept-event-card-icon-area" style={{ '--dept-color': dept.color }}>
                                                 <span>{dept.icon}</span>
                                             </div>
-                                            <div className="dept-event-card-time">
-                                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10" /><polyline points="12 6 12 12 16 14" /></svg>
-                                                {event.time}
-                                            </div>
+                                            {event.time && (
+                                                <div className="dept-event-card-time">
+                                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10" /><polyline points="12 6 12 12 16 14" /></svg>
+                                                    {event.time}
+                                                </div>
+                                            )}
                                         </div>
                                         <h4 className="dept-event-card-title">{event.title}</h4>
+                                        {event.subtitle && <div style={{ fontSize: '0.78rem', color: 'var(--flame-orange)', fontWeight: 600, marginBottom: 8 }}>{event.subtitle}</div>}
                                         <p className="dept-event-card-desc">{event.desc}</p>
                                         <div className="dept-event-card-details">
                                             <div className="dept-event-card-detail">
-                                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" /><circle cx="12" cy="10" r="3" /></svg>
-                                                {event.venue}
-                                            </div>
-                                            <div className="dept-event-card-detail">
-                                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" /><circle cx="9" cy="7" r="4" /><path d="M23 21v-2a4 4 0 00-3-3.87" /><path d="M16 3.13a4 4 0 010 7.75" /></svg>
+                                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" /><circle cx="9" cy="7" r="4" /></svg>
                                                 {event.team}
                                             </div>
+                                            {event.fee && <div className="dept-event-card-detail">💰 {event.fee}</div>}
+                                            {event.prize && <div className="dept-event-card-detail">🏆 {event.prize}</div>}
                                         </div>
-                                        {event.rules && event.rules.length > 0 && (
-                                            <div className="dept-event-card-rules">
-                                                <div className="dept-event-card-rules-title">Rules & Info</div>
-                                                <ul>
-                                                    {event.rules.map((rule, ri) => (
-                                                        <li key={ri}>{rule}</li>
-                                                    ))}
-                                                </ul>
-                                            </div>
-                                        )}
-                                    </div>
+                                    </Link>
                                 ))}
                             </div>
                         </div>
@@ -264,7 +249,7 @@ export default async function DepartmentPage({ params }) {
             <footer className="footer">
                 <div className="container">
                     <div className="footer-bottom">
-                        <p>© 2026 Tarang · GPC Kannur. All rights reserved.</p>
+                        <p>© 2026 Tarang · GPTC Kannur. All rights reserved.</p>
                         <div style={{ display: 'flex', gap: '20px' }}>
                             <Link href="/departments" style={{ color: '#f27b1a' }}>← All Departments</Link>
                             <Link href="/" style={{ color: '#f27b1a' }}>Home</Link>

@@ -1,5 +1,5 @@
 /* ==============================================
-   TARANG 2026 — GPC Kannur
+   TARANG 2026 — GPTC Kannur
    The Spectrum of Technology and Culture
    ============================================== */
 
@@ -142,6 +142,107 @@ const eventsData = [
         badgeClass: "badge-cultural",
         date: "March 12",
         team: "Individual"
+    },
+    // Creative Events (Open to Public)
+    {
+        title: "Photography Contest",
+        desc: "Live mobile photography — capture the spirit of Tarang on campus. Open to public!",
+        category: "creative",
+        badge: "Creative",
+        badgeClass: "badge-creative",
+        date: "Both Days",
+        team: "Individual"
+    },
+    {
+        title: "Poster Design Contest",
+        desc: "Create stunning poster designs based on a spot theme. Duration: 90 minutes. Open to public!",
+        category: "creative",
+        badge: "Creative",
+        badgeClass: "badge-creative",
+        date: "Both Days",
+        team: "Individual"
+    },
+    {
+        title: "Shorts / Reels Contest",
+        desc: "Create a 30–60 second video shot entirely on campus. Open to public!",
+        category: "creative",
+        badge: "Creative",
+        badgeClass: "badge-creative",
+        date: "Both Days",
+        team: "Individual"
+    },
+    {
+        title: "Glass Bottle Art",
+        desc: "Transform transparent bottles into art. Theme on the spot. 2 hours. Open to public!",
+        category: "creative",
+        badge: "Creative",
+        badgeClass: "badge-creative",
+        date: "Both Days",
+        team: "Individual"
+    },
+    {
+        title: "Mehndi Contest",
+        desc: "Intricate mehndi artistry on both hands. Team of two — artist and model. Open to public!",
+        category: "creative",
+        badge: "Creative",
+        badgeClass: "badge-creative",
+        date: "Both Days",
+        team: "Team of 2"
+    },
+    {
+        title: "Clay Modelling",
+        desc: "Sculpt creative clay models. Model provided at spot. Duration: 3 hours. Open to public!",
+        category: "creative",
+        badge: "Creative",
+        badgeClass: "badge-creative",
+        date: "Both Days",
+        team: "Individual"
+    },
+    {
+        title: "Face Painting Contest",
+        desc: "Transform faces into art using skin-friendly paints. Team of two. Open to public!",
+        category: "creative",
+        badge: "Creative",
+        badgeClass: "badge-creative",
+        date: "Both Days",
+        team: "Team of 2"
+    },
+    {
+        title: "Caricature Contest",
+        desc: "Live comical drawings of models. Pencils only. Open to public!",
+        category: "creative",
+        badge: "Creative",
+        badgeClass: "badge-creative",
+        date: "Both Days",
+        team: "Individual"
+    },
+    {
+        title: "Graffiti Contest",
+        desc: "Express street art skills on allotted space. Bring your own resources. Open to public!",
+        category: "creative",
+        badge: "Creative",
+        badgeClass: "badge-creative",
+        date: "Both Days",
+        team: "Individual"
+    },
+    // Cultural Events (Open to Public)
+    {
+        title: "Karaoke Song Competition",
+        desc: "Mandatory live singing, 4–8 minutes, any language. Open to public!",
+        category: "cultural",
+        badge: "Cultural",
+        badgeClass: "badge-cultural",
+        date: "Both Days",
+        team: "Individual"
+    },
+    {
+        title: "Break Dance Competition",
+        desc: "High-energy dance battle. Duration: 3–7 min. Groups of 3–15. Open to public!",
+        category: "cultural",
+        badge: "Cultural",
+        badgeClass: "badge-cultural",
+        date: "Both Days",
+        team: "Group (3–15)"
     }
 ];
 
@@ -175,14 +276,20 @@ const scheduleData = [
 ];
 
 const teamData = [
-    { name: "Fest Coordinator", role: "Overall Coordination", initials: "FC" },
-    { name: "Tech Head", role: "Technical Events", initials: "TH" },
-    { name: "Cultural Head", role: "Cultural Events", initials: "CH" },
-    { name: "Design Lead", role: "Creative & Design", initials: "DL" },
+    { name: "Pramod Chathampilli", designation: "Principal", role: "Patron", initials: "PC", image: "pramod.jpg" },
+    { name: "BIJU KT", designation: "Demonstrator in WP", role: "Fest Director", initials: "FD", image: "biju.jpeg" },
+    { name: "Rajesh OK", designation: "Lecturer in EEE", role: "Fest Convener", initials: "RO", image: "rajesh.jpeg" },
+    { name: "Divesh Kumar C", designation: "Lecturer in Mech Engg", role: "Joint Convener", initials: "JC", image: "divesh.jpeg" },
+    { name: "Lijina K", designation: "Lecturer in Electronics", role: "Joint Convener", initials: "JC", image: "lijina.png" },
+    { name: "Sarath D", designation: "Lecturer in Civil Engg", role: "Tech Head", initials: "TH", image: "sarath.jpg" },
+    { name: "Satheesh Kumar TK", designation: "Lecturer in WP", role: "Event Management", initials: "SK", image: "satheesh.jpg" },
+    { name: "Rajesh NP", designation: "Lecturer in Mech Engg", role: "Cultural Head", initials: "RN", image: "rajesh_np.jpg" },
+    { name: "Divyathej MV", designation: "Guest Lecturer in WP", role: "Design Head", initials: "DM", image: "divyathej.jpeg" },
+    { name: "Nidhin Narayanan", designation: "Lecturer in WP", role: "Creative Head", initials: "NN", image: "nidhin.jpeg" },
     { name: "Sponsorship Head", role: "Sponsorship & PR", initials: "SH" },
     { name: "Logistics Head", role: "Logistics & Planning", initials: "LH" },
     { name: "Media Head", role: "Photography & Media", initials: "MH" },
-    { name: "Web Team Lead", role: "Website & Digital", initials: "WT" }
+    { name: "Vinayak K", designation: "Lecturer in WP", role: "Web Team Lead", initials: "WT", image: "vinayak.jpeg" }
 ];
 
 const faqData = [
@@ -391,12 +498,12 @@ function initCountdown() {
 function renderDepartments() {
     const grid = document.getElementById('depts-grid');
     const pdfFiles = {
-        'Civil Engineering': 'TARANG-GPC KANNUR-CIVIL ENGINEERING.pdf',
-        'Electrical & Electronics': 'TARANG-GPC KANNUR-ELECTRICAL AND ELECTRONICS ENGINEERING.pdf',
-        'Electronics Engineering': 'TARANG-GPC KANNUR-ELECTRONICS ENGG.pdf',
-        'Mechanical Engineering': 'TARANG-GPC KANNUR-MECHANICAL ENGINEERING.pdf',
-        'Textile Technology': 'TARANG-GPC KANNUR-TEXTILE TECHNOLOGY.pdf',
-        'Wood & Paper Technology': 'TARANG-GPC KANNUR-WOOD AND PAPER TECHNOLOGY.pdf'
+        'Civil Engineering': 'TARANG-GPTC KANNUR-CIVIL ENGINEERING.pdf',
+        'Electrical & Electronics': 'TARANG-GPTC KANNUR-ELECTRICAL AND ELECTRONICS ENGINEERING.pdf',
+        'Electronics Engineering': 'TARANG-GPTC KANNUR-ELECTRONICS ENGG.pdf',
+        'Mechanical Engineering': 'TARANG-GPTC KANNUR-MECHANICAL ENGINEERING.pdf',
+        'Textile Technology': 'TARANG-GPTC KANNUR-TEXTILE TECHNOLOGY.pdf',
+        'Wood & Paper Technology': 'TARANG-GPTC KANNUR-WOOD AND PAPER TECHNOLOGY.pdf'
     };
 
     grid.innerHTML = departmentsData.map((dept, i) => `
@@ -436,21 +543,47 @@ function renderEvents(category) {
         tech: '#0a1628, #162647',
         cultural: '#28100a, #4a1a2d',
         flagship: '#2a1500, #4a2d0a',
-        workshop: '#1a280a, #2d4a1a'
+        workshop: '#1a280a, #2d4a1a',
+        creative: '#1a0a28, #2d1a4a'
     };
     const iconMap = {
         tech: '⚙',
-        cultural: '♪',
+        cultural: '🎭',
         flagship: '🔥',
-        workshop: '📐'
+        workshop: '📐',
+        creative: '🎨'
     };
 
-    grid.innerHTML = filtered.map((ev, i) => `
+    grid.innerHTML = filtered.map((ev, i) => {
+        const getThumb = (title) => {
+            const t = title.toLowerCase();
+            if (t.includes('quiz') || t.includes('brain') || t.includes('mechiq') || t.includes('puzzle')) return 'quiz.png';
+            if (t.includes('bridge') || t.includes('tower') || t.includes('stick')) return 'bridge.png';
+            if (t.includes('cad') || t.includes('autocad') || t.includes('mechcad')) return 'cad.png';
+            if (t.includes('solder') || t.includes('hot joint') || t.includes('bugslayer') || t.includes('trace')) return 'soldering.png';
+            if (t.includes('wiring') || t.includes('metal fab') || t.includes('proturn')) return 'wiring.png';
+            if (t.includes('workshop') || t.includes('arduino') || t.includes('additive') || t.includes('sketchup')) return 'workshop.png';
+            if (t.includes('fashion') || t.includes('drape') || t.includes('sketch to style') || t.includes('design decode') || t.includes('pureform')) return 'fashion.png';
+            if (t.includes('photography') || t.includes('shorts') || t.includes('reels')) return 'photography.png';
+            if (t.includes('dance')) return 'dance.png';
+            if (t.includes('karaoke') || t.includes('song') || t.includes('music')) return 'music.png';
+            if (t.includes('mehndi')) return 'mehndi.png';
+            if (t.includes('art') || t.includes('poster') || t.includes('bottle') || t.includes('clay') || t.includes('face') || t.includes('caricature') || t.includes('graffiti')) return 'art.png';
+            if (t.includes('seminar') || t.includes('project competition') || t.includes('paper')) return 'seminar.png';
+            return null;
+        };
+        const thumb = getThumb(ev.title);
+
+        return `
     <div class="event-card reveal" style="transition-delay: ${i * 0.07}s">
       <div class="event-card-image">
-        <div style="width:100%;height:100%;background:linear-gradient(135deg, ${bgMap[ev.category]});display:flex;align-items:center;justify-content:center;">
-          <span style="font-size:2.8rem;opacity:0.25;">${iconMap[ev.category]}</span>
-        </div>
+        ${thumb ?
+                `<img src="assets/events/${thumb}" alt="${ev.title}" style="width:100%;height:100%;object-fit:cover;" />`
+                :
+                `<div style="width:100%;height:100%;background:linear-gradient(135deg, ${bgMap[ev.category]});display:flex;align-items:center;justify-content:center;">
+             <span style="font-size:2.8rem;opacity:0.25;">${iconMap[ev.category]}</span>
+           </div>`
+            }
         <span class="event-card-badge ${ev.badgeClass}">${ev.badge}</span>
       </div>
       <div class="event-card-body">
@@ -473,7 +606,7 @@ function renderEvents(category) {
         </div>
       </div>
     </div>
-  `).join('');
+  `}).join('');
 
     setTimeout(() => {
         document.querySelectorAll('.event-card.reveal').forEach(el => {
@@ -529,13 +662,34 @@ function renderSchedule(dayIndex) {
 
 function renderTeam() {
     const grid = document.getElementById('team-grid');
-    grid.innerHTML = teamData.map((m, i) => `
-    <div class="team-card reveal" style="transition-delay: ${i * 0.07}s">
-      <div class="team-avatar">${m.initials}</div>
-      <div class="team-name">${m.name}</div>
-      <div class="team-role">${m.role}</div>
+    if (!teamData || teamData.length === 0) return;
+
+    const principal = teamData[0];
+    const others = teamData.slice(1);
+
+    let html = `
+    <div class="principal-card reveal" style="grid-column: 1 / -1; margin: 0 auto 50px; max-width: 350px; text-align: center; background: rgba(255,255,255,0.03); padding: 40px 20px; border-radius: 24px; border: 1px solid rgba(255,255,255,0.05); width: 100%;">
+        <div class="team-avatar" style="width: 180px; height: 180px; margin: 0 auto 20px; font-size: 3rem;">
+            ${principal.image ? `<img src="assets/team/${principal.image}" alt="${principal.name}" style="width: 100%; height: 100%; border-radius: 50%; object-fit: cover;" />` : principal.initials}
+        </div>
+        <h3 style="font-size: 1.8rem; color: #fff; margin-bottom: 8px;">${principal.name}</h3>
+        ${principal.designation ? `<div style="font-size: 1rem; color: #f27b1a; font-weight: 600; margin-bottom: 4px;">${principal.designation}</div>` : ''}
+        <div style="color: rgba(255,255,255,0.7); font-size: 0.95rem;">${principal.role}</div>
+    </div>
+    `;
+
+    html += others.map((m, i) => `
+    <div class="team-card reveal" style="transition-delay: ${i * 0.07}s; display: flex; flex-direction: column; align-items: center; text-align: center;">
+      <div class="team-avatar" style="width: 100px; height: 100px; margin-bottom: 16px;">
+          ${m.image ? `<img src="assets/team/${m.image}" alt="${m.name}" style="width: 100%; height: 100%; border-radius: 50%; object-fit: cover;" />` : m.initials}
+      </div>
+      <div class="team-name" style="font-size: 1.1rem; font-weight: 600; color: #fff;">${m.name}</div>
+      ${m.designation ? `<div class="team-designation" style="font-size: 0.85rem; color: #f27b1a; margin-top: 4px;">${m.designation}</div>` : ''}
+      <div class="team-role" style="font-size: 0.85rem; color: rgba(255,255,255,0.6); margin-top: 4px;">${m.role}</div>
     </div>
   `).join('');
+
+    grid.innerHTML = html;
 }
 
 

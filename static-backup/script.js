@@ -1,5 +1,5 @@
 /* ==============================================
-   TARANG 2026 — GPC Kannur
+   TARANG 2026 — GPTC Kannur
    The Spectrum of Technology and Culture
    ============================================== */
 
@@ -391,12 +391,12 @@ function initCountdown() {
 function renderDepartments() {
     const grid = document.getElementById('depts-grid');
     const pdfFiles = {
-        'Civil Engineering': 'TARANG-GPC KANNUR-CIVIL ENGINEERING.pdf',
-        'Electrical & Electronics': 'TARANG-GPC KANNUR-ELECTRICAL AND ELECTRONICS ENGINEERING.pdf',
-        'Electronics Engineering': 'TARANG-GPC KANNUR-ELECTRONICS ENGG.pdf',
-        'Mechanical Engineering': 'TARANG-GPC KANNUR-MECHANICAL ENGINEERING.pdf',
-        'Textile Technology': 'TARANG-GPC KANNUR-TEXTILE TECHNOLOGY.pdf',
-        'Wood & Paper Technology': 'TARANG-GPC KANNUR-WOOD AND PAPER TECHNOLOGY.pdf'
+        'Civil Engineering': 'TARANG-GPTC KANNUR-CIVIL ENGINEERING.pdf',
+        'Electrical & Electronics': 'TARANG-GPTC KANNUR-ELECTRICAL AND ELECTRONICS ENGINEERING.pdf',
+        'Electronics Engineering': 'TARANG-GPTC KANNUR-ELECTRONICS ENGG.pdf',
+        'Mechanical Engineering': 'TARANG-GPTC KANNUR-MECHANICAL ENGINEERING.pdf',
+        'Textile Technology': 'TARANG-GPTC KANNUR-TEXTILE TECHNOLOGY.pdf',
+        'Wood & Paper Technology': 'TARANG-GPTC KANNUR-WOOD AND PAPER TECHNOLOGY.pdf'
     };
 
     grid.innerHTML = departmentsData.map((dept, i) => `

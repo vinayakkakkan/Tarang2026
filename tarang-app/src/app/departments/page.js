@@ -3,7 +3,7 @@ import Link from 'next/link';
 import BASE_PATH from '@/lib/basePath';
 
 export const metadata = {
-    title: 'Departments — Tarang 2026 | GPC Kannur',
+    title: 'Departments — Tarang 2026 | GPTC Kannur',
     description: 'Explore events from all six departments at Tarang 2026 — Civil, EEE, ECE, Mechanical, Textile, and Wood & Paper Technology.',
 };
 
@@ -44,7 +44,7 @@ export default function DepartmentsPage() {
                             Six Departments, <span className="highlight">Unlimited Events</span>
                         </h1>
                         <p className="dept-page-subtitle">
-                            Each department at GPC Kannur hosts its own set of technical competitions during Tarang 2026.
+                            Each department at GPTC Kannur hosts its own set of technical competitions during Tarang 2026.
                             Explore department-specific events and find the competitions that match your skills.
                         </p>
                     </div>
@@ -115,7 +115,7 @@ export default function DepartmentsPage() {
             <footer className="footer">
                 <div className="container">
                     <div className="footer-bottom">
-                        <p>© 2026 Tarang · GPC Kannur. All rights reserved.</p>
+                        <p>© 2026 Tarang · GPTC Kannur. All rights reserved.</p>
                         <Link href="/" style={{ color: '#f27b1a' }}>← Back to Home</Link>
                     </div>
                 </div>

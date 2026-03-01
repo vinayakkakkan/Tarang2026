@@ -160,17 +160,19 @@ export default function HomePage({ initialData }) {
     };
 
     const badgeClass = (cat) => ({
-        tech: 'badge-tech', cultural: 'badge-cultural', flagship: 'badge-flagship', workshop: 'badge-workshop'
+        tech: 'badge-tech', cultural: 'badge-cultural', flagship: 'badge-flagship', workshop: 'badge-workshop', creative: 'badge-creative'
     }[cat] || 'badge-tech');
 
     const bgGradient = (cat) => ({
         tech: '#0a1628, #162647',
         cultural: '#28100a, #4a1a2d',
         flagship: '#2a1500, #4a2d0a',
+        workshop: '#0a2818, #1a4a2d',
+        creative: '#1a0a28, #2d1a4a',
     }[cat] || '#0a1628, #162647');
 
     const catIcon = (cat) => ({
-        tech: '⚙', cultural: '♪', flagship: '🔥',
+        tech: '⚙', cultural: '🎭', flagship: '🔥', workshop: '🔧', creative: '🎨',
     }[cat] || '⚙');
 
     const pdfMap = {};
@@ -252,8 +254,8 @@ export default function HomePage({ initialData }) {
                             Explore Events
                         </a>
                     </div>
+                    <div className="scroll-indicator"><span>Scroll</span><div className="scroll-line" /></div>
                 </div>
-                <div className="scroll-indicator"><span>Scroll</span><div className="scroll-line" /></div>
             </section>
 
             {/* COUNTDOWN */}
@@ -283,7 +285,7 @@ export default function HomePage({ initialData }) {
                                 <div className="about-image-overlay" />
                             </div>
                             <div className="about-floating-card">
-                                <div className="number">GPC</div>
+                                <div className="number">GPTC</div>
                                 <div className="label">Kannur</div>
                             </div>
                         </div>
@@ -338,34 +340,59 @@ export default function HomePage({ initialData }) {
                         <p className="section-desc">Technical battles, cultural showdowns, and everything in between.</p>
                     </div>
                     <div className="events-tabs reveal">
-                        {['all', 'tech', 'cultural', 'flagship'].map(cat => (
+                        {['all', 'tech', 'creative', 'cultural'].map(cat => (
                             <button key={cat} className={`event-tab${activeTab === cat ? ' active' : ''}`} onClick={() => setActiveTab(cat)}>
-                                {cat === 'all' ? 'All Events' : cat.charAt(0).toUpperCase() + cat.slice(1)}
+                                {cat === 'all' ? 'All Events' : cat === 'tech' ? 'Technical' : cat.charAt(0).toUpperCase() + cat.slice(1)}
                             </button>
                         ))}
                     </div>
                     <div className="events-grid">
-                        {filteredEvents.map((ev, i) => (
-                            <div key={ev.id} className="event-card reveal" style={{ transitionDelay: `${i * 0.07}s` }}>
-                                <div className="event-card-image">
-                                    <div style={{ width: '100%', height: '100%', background: `linear-gradient(135deg,${bgGradient(ev.category)})`, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                                        <span style={{ fontSize: '2.8rem', opacity: 0.25 }}>{catIcon(ev.category)}</span>
+                        {filteredEvents.map((ev, i) => {
+                            const getThumb = (title) => {
+                                const t = title.toLowerCase();
+                                if (t.includes('quiz') || t.includes('brain') || t.includes('mechiq') || t.includes('puzzle')) return 'quiz.png';
+                                if (t.includes('bridge') || t.includes('tower') || t.includes('stick')) return 'bridge.png';
+                                if (t.includes('cad') || t.includes('autocad') || t.includes('mechcad')) return 'cad.png';
+                                if (t.includes('solder') || t.includes('hot joint') || t.includes('bugslayer') || t.includes('trace')) return 'soldering.png';
+                                if (t.includes('wiring') || t.includes('metal fab') || t.includes('proturn')) return 'wiring.png';
+                                if (t.includes('workshop') || t.includes('arduino') || t.includes('additive') || t.includes('sketchup')) return 'workshop.png';
+                                if (t.includes('fashion') || t.includes('drape') || t.includes('sketch to style') || t.includes('design decode') || t.includes('pureform')) return 'fashion.png';
+                                if (t.includes('photography') || t.includes('shorts') || t.includes('reels')) return 'photography.png';
+                                if (t.includes('dance')) return 'dance.png';
+                                if (t.includes('karaoke') || t.includes('song') || t.includes('music')) return 'music.png';
+                                if (t.includes('mehndi')) return 'mehndi.png';
+                                if (t.includes('art') || t.includes('poster') || t.includes('bottle') || t.includes('clay') || t.includes('face') || t.includes('caricature') || t.includes('graffiti')) return 'art.png';
+                                if (t.includes('seminar') || t.includes('project competition')) return 'seminar.png';
+                                return null;
+                            };
+                            const thumb = getThumb(ev.title);
+                            return (
+                                <Link key={ev.id} href={`/events/${ev.id}`} className="event-card reveal" style={{ transitionDelay: `${i * 0.07}s`, textDecoration: 'none', color: 'inherit' }}>
+                                    <div className="event-card-image">
+                                        {thumb ? (
+                                            <img src={`${BASE_PATH}/assets/events/${thumb}`} alt={ev.title} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                                        ) : (
+                                            <div style={{ width: '100%', height: '100%', background: `linear-gradient(135deg,${bgGradient(ev.category)})`, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                                                <span style={{ fontSize: '2.8rem', opacity: 0.25 }}>{catIcon(ev.category)}</span>
+                                            </div>
+                                        )}
+                                        <span className={`event-card-badge ${badgeClass(ev.category)}`}>{ev.badge}</span>
                                     </div>
-                                    <span className={`event-card-badge ${badgeClass(ev.category)}`}>{ev.badge}</span>
-                                </div>
-                                <div className="event-card-body">
-                                    <h3 className="event-card-title">{ev.title}</h3>
-                                    <p className="event-card-desc">{ev.desc}</p>
-                                    <div className="event-card-meta">
-                                        <div style={{ display: 'flex', gap: 14 }}>
-                                            <div className="event-card-detail">📅 {ev.date}</div>
-                                            <div className="event-card-detail">👥 {ev.team}</div>
+                                    <div className="event-card-body">
+                                        <h3 className="event-card-title">{ev.title}</h3>
+                                        <p className="event-card-desc">{ev.desc}</p>
+                                        <div className="event-card-meta">
+                                            <div style={{ display: 'flex', gap: 14, flexWrap: 'wrap' }}>
+                                                <div className="event-card-detail">📅 {ev.date}</div>
+                                                <div className="event-card-detail">👥 {ev.team}</div>
+                                                {ev.fee && <div className="event-card-detail">💰 {ev.fee}</div>}
+                                            </div>
+                                            <div className="event-card-arrow">→</div>
                                         </div>
-                                        <div className="event-card-arrow">→</div>
                                     </div>
-                                </div>
-                            </div>
-                        ))}
+                                </Link>
+                            );
+                        })}
                     </div>
                 </div>
             </section>
@@ -408,12 +435,36 @@ export default function HomePage({ initialData }) {
                         <h2 className="section-title">The <span className="highlight">Force</span> Behind Tarang</h2>
                         <p className="section-desc">Meet the passionate team that brings this festival to life.</p>
                     </div>
+
+                    {/* Principal / Patron - Enlarged */}
+                    {data.team.length > 0 && data.team[0].id === "1" && (
+                        <div className="principal-card reveal" style={{ margin: '0 auto 50px', maxWidth: '350px', textAlign: 'center', background: 'rgba(255,255,255,0.03)', padding: '40px 20px', borderRadius: '24px', border: '1px solid rgba(255,255,255,0.05)' }}>
+                            <div className="team-avatar" style={{ width: '180px', height: '180px', margin: '0 auto 20px', fontSize: '3rem' }}>
+                                {data.team[0].image ? (
+                                    <img src={`${BASE_PATH}/assets/team/${data.team[0].image}`} alt={data.team[0].name} style={{ width: '100%', height: '100%', borderRadius: '50%', objectFit: 'cover' }} />
+                                ) : (
+                                    data.team[0].initials
+                                )}
+                            </div>
+                            <h3 style={{ fontSize: '1.8rem', color: '#fff', marginBottom: '8px' }}>{data.team[0].name}</h3>
+                            {data.team[0].designation && <div style={{ fontSize: '1rem', color: '#f27b1a', fontWeight: 600, marginBottom: '4px' }}>{data.team[0].designation}</div>}
+                            <div style={{ color: 'rgba(255,255,255,0.7)', fontSize: '0.95rem' }}>{data.team[0].role}</div>
+                        </div>
+                    )}
+
                     <div className="team-grid">
-                        {data.team.map((m, i) => (
-                            <div key={m.id} className="team-card reveal" style={{ transitionDelay: `${i * 0.07}s` }}>
-                                <div className="team-avatar">{m.initials}</div>
-                                <div className="team-name">{m.name}</div>
-                                <div className="team-role">{m.role}</div>
+                        {data.team.slice(1).map((m, i) => (
+                            <div key={m.id} className="team-card reveal" style={{ transitionDelay: `${i * 0.07}s`, display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center' }}>
+                                <div className="team-avatar" style={{ width: '100px', height: '100px', marginBottom: '16px' }}>
+                                    {m.image ? (
+                                        <img src={`${BASE_PATH}/assets/team/${m.image}`} alt={m.name} style={{ width: '100%', height: '100%', borderRadius: '50%', objectFit: 'cover' }} />
+                                    ) : (
+                                        m.initials
+                                    )}
+                                </div>
+                                <div className="team-name" style={{ fontSize: '1.1rem', fontWeight: 600, color: '#fff' }}>{m.name}</div>
+                                {m.designation && <div className="team-designation" style={{ fontSize: '0.85rem', color: '#f27b1a', marginTop: '4px' }}>{m.designation}</div>}
+                                <div className="team-role" style={{ fontSize: '0.85rem', color: 'rgba(255,255,255,0.6)', marginTop: '4px' }}>{m.role}</div>
                             </div>
                         ))}
                     </div>
@@ -447,12 +498,14 @@ export default function HomePage({ initialData }) {
                     </div>
                     <div className="faq-list">
                         {data.faq.map((faq, i) => (
-                            <div key={faq.id} className={`faq-item reveal${openFaq === faq.id ? ' open' : ''}`} style={{ transitionDelay: `${i * 0.07}s` }}>
-                                <button className="faq-question" onClick={() => setOpenFaq(openFaq === faq.id ? null : faq.id)}>
-                                    {faq.question}
-                                    <svg className="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><line x1="12" y1="5" x2="12" y2="19" /><line x1="5" y1="12" x2="19" y2="12" /></svg>
-                                </button>
-                                <div className="faq-answer"><div className="faq-answer-content">{faq.answer}</div></div>
+                            <div key={faq.id} className="reveal" style={{ transitionDelay: `${i * 0.07}s` }}>
+                                <div className={`faq-item${openFaq === faq.id ? ' open' : ''}`}>
+                                    <button className="faq-question" onClick={() => setOpenFaq(openFaq === faq.id ? null : faq.id)}>
+                                        {faq.question}
+                                        <svg className="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><line x1="12" y1="5" x2="12" y2="19" /><line x1="5" y1="12" x2="19" y2="12" /></svg>
+                                    </button>
+                                    <div className="faq-answer"><div className="faq-answer-content">{faq.answer}</div></div>
+                                </div>
                             </div>
                         ))}
                     </div>
@@ -466,7 +519,7 @@ export default function HomePage({ initialData }) {
                 <div className="container">
                     <div className="cta-content reveal">
                         <h2 className="cta-title">Be Part of<br /><span className="gradient-text">Tarang 2026</span></h2>
-                        <p className="cta-desc">Don&apos;t miss the most awaited fest of GPC Kannur. Register now and be part of the spectrum of technology and culture.</p>
+                        <p className="cta-desc">Don&apos;t miss the most awaited fest of GPTC Kannur. Register now and be part of the spectrum of technology and culture.</p>
                         <Link href="/register" className="btn-primary" style={{ fontSize: '1.05rem', padding: '17px 42px' }}>Register for Tarang 2026</Link>
                     </div>
                 </div>
@@ -505,7 +558,7 @@ export default function HomePage({ initialData }) {
                         </div>
                     </div>
                     <div className="footer-bottom">
-                        <p>© 2026 Tarang · GPC Kannur. All rights reserved.</p>
+                        <p>© 2026 Tarang · GPTC Kannur. All rights reserved.</p>
                         <p>{data.siteConfig.tagline}</p>
                     </div>
                 </div>

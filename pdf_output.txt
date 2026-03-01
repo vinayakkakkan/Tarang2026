@@ -1,0 +1,489 @@
+﻿========================================
+FILE: TARANG-GPTC KANNUR-CIVIL ENGINEERING.pdf
+========================================
+kr {
+  pages: [
+    {
+      text: 'GOVT POLYTECHNIC COLLEGE\n' +
+        'KANNUR\n' +
+        '12-13 MARCH 2026\n' +
+        'A NATIONAL LEVEL PROGRAM',
+      num: 1
+    },
+    { text: 'CIVIL ENGINEERING', num: 2 },
+    { text: '', num: 3 },
+    { text: '', num: 4 },
+    { text: '', num: 5 },
+    { text: '', num: 6 },
+    { text: '', num: 7 },
+    { text: '', num: 8 },
+    {
+      text: 'COMPETITION\n' +
+        'SEMINAR\tSEMINAR\tSEMINAR\n' +
+        'Topic: Sustainable development\n' +
+        'in the 21 \tcenturyst\n' +
+        'Topic: Sustainable development\n' +
+        'in the 21 \tcenturyst\n' +
+        'GOVT POLYTECHNIC COLLEGE\n' +
+        'KANNUR\n' +
+        'Ashika Prakashan: 8304034997\n' +
+        'Abhinand T M: \t8137864081\n' +
+        'For Registration Contact\n' +
+        '13 \tMarch 2026th\n' +
+        'Govt. Polytechnic College Kannur\n' +
+        'Prize Pool\n' +
+        'Rs 4500\n' +
+        'Eligible for\n' +
+        'activity points\n' +
+        'Registration Fee\n' +
+        'Rs 30\n' +
+        'Open to all\n' +
+        'branches\n' +
+        'Exploring innovative strategies and technologies driving\n' +
+        'sustainable development in the 21st century.',
+      num: 9
+    }
+  ],
+  text: 'GOVT POLYTECHNIC COLLEGE\n' +
+    'KANNUR\n' +
+    '12-13 MARCH 2026\n' +
+    'A NATIONAL LEVEL PROGRAM\n' +
+    '\n' +
+    '-- 1 of 9 --\n' +
+    '\n' +
+    'CIVIL ENGINEERING\n' +
+    '\n' +
+    '-- 2 of 9 --\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '-- 3 of 9 --\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '-- 4 of 9 --\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '-- 5 of 9 --\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '-- 6 of 9 --\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '-- 7 of 9 --\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '-- 8 of 9 --\n' +
+    '\n' +
+    'COMPETITION\n' +
+    'SEMINAR\tSEMINAR\tSEMINAR\n' +
+    'Topic: Sustainable development\n' +
+    'in the 21 \tcenturyst\n' +
+    'Topic: Sustainable development\n' +
+    'in the 21 \tcenturyst\n' +
+    'GOVT POLYTECHNIC COLLEGE\n' +
+    'KANNUR\n' +
+    'Ashika Prakashan: 8304034997\n' +
+    'Abhinand T M: \t8137864081\n' +
+    'For Registration Contact\n' +
+    '13 \tMarch 2026th\n' +
+    'Govt. Polytechnic College Kannur\n' +
+    'Prize Pool\n' +
+    'Rs 4500\n' +
+    'Eligible for\n' +
+    'activity points\n' +
+    'Registration Fee\n' +
+    'Rs 30\n' +
+    'Open to all\n' +
+    'branches\n' +
+    'Exploring innovative strategies and technologies driving\n' +
+    'sustainable development in the 21st century.\n' +
+    '\n' +
+    '-- 9 of 9 --\n' +
+    '\n',
+  total: 9
+}
+
+
+
+ERROR reading TARANG-GPTC KANNUR-ELECTRICAL AND ELECTRONICS ENGINEERING.pdf: The PDF file is empty, i.e. its size is zero bytes.
+========================================
+FILE: TARANG-GPTC KANNUR-ELECTRONICS ENGG.pdf
+========================================
+kr {
+  pages: [
+    { text: '12-13 MARCH 2026\nA NATIONAL LEVEL PROGRAM', num: 1 },
+    { text: 'ELECTRONICS\nENGINEERING', num: 2 },
+    { text: '', num: 3 },
+    { text: '', num: 4 },
+    { text: '', num: 5 },
+    { text: '', num: 6 },
+    {
+      text: 'COMPETITION\n' +
+        'SEMINAR\tSEMINAR\tSEMINAR\n' +
+        'Topic: Sustainable development\n' +
+        'in the 21 \tcenturyst\n' +
+        'Topic: Sustainable development\n' +
+        'in the 21 \tcenturyst\n' +
+        'GOVT POLYTECHNIC COLLEGE\n' +
+        'KANNUR\n' +
+        'Ashika Prakashan: 8304034997\n' +
+        'Abhinand T M: \t8137864081\n' +
+        'For Registration Contact\n' +
+        '13 \tMarch 2026th\n' +
+        'Govt. Polytechnic College Kannur\n' +
+        'Prize Pool\n' +
+        'Rs 4500\n' +
+        'Eligible for\n' +
+        'activity points\n' +
+        'Registration Fee\n' +
+        'Rs 30\n' +
+        'Open to all\n' +
+        'branches\n' +
+        'Exploring innovative strategies and technologies driving\n' +
+        'sustainable development in the 21st century.',
+      num: 7
+    }
+  ],
+  text: '12-13 MARCH 2026\n' +
+    'A NATIONAL LEVEL PROGRAM\n' +
+    '\n' +
+    '-- 1 of 7 --\n' +
+    '\n' +
+    'ELECTRONICS\n' +
+    'ENGINEERING\n' +
+    '\n' +
+    '-- 2 of 7 --\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '-- 3 of 7 --\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '-- 4 of 7 --\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '-- 5 of 7 --\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '-- 6 of 7 --\n' +
+    '\n' +
+    'COMPETITION\n' +
+    'SEMINAR\tSEMINAR\tSEMINAR\n' +
+    'Topic: Sustainable development\n' +
+    'in the 21 \tcenturyst\n' +
+    'Topic: Sustainable development\n' +
+    'in the 21 \tcenturyst\n' +
+    'GOVT POLYTECHNIC COLLEGE\n' +
+    'KANNUR\n' +
+    'Ashika Prakashan: 8304034997\n' +
+    'Abhinand T M: \t8137864081\n' +
+    'For Registration Contact\n' +
+    '13 \tMarch 2026th\n' +
+    'Govt. Polytechnic College Kannur\n' +
+    'Prize Pool\n' +
+    'Rs 4500\n' +
+    'Eligible for\n' +
+    'activity points\n' +
+    'Registration Fee\n' +
+    'Rs 30\n' +
+    'Open to all\n' +
+    'branches\n' +
+    'Exploring innovative strategies and technologies driving\n' +
+    'sustainable development in the 21st century.\n' +
+    '\n' +
+    '-- 7 of 7 --\n' +
+    '\n',
+  total: 7
+}
+
+
+
+========================================
+FILE: TARANG-GPTC KANNUR-MECHANICAL ENGINEERING.pdf
+========================================
+kr {
+  pages: [
+    { text: '12-13 MARCH 2026\nA NATIONAL LEVEL PROGRAM', num: 1 },
+    { text: 'MECHANICAL\nENGINEERING', num: 2 },
+    { text: '', num: 3 },
+    { text: '', num: 4 },
+    { text: '', num: 5 },
+    { text: '', num: 6 },
+    { text: '', num: 7 },
+    { text: '', num: 8 },
+    {
+      text: 'COMPETITION\n' +
+        'GOVT POLYTECHNIC COLLEGE\n' +
+        'KANNUR\n' +
+        'SEMINAR\n' +
+        'Topic: Sustainabledevelopment\n' +
+        'in the 21st century\n' +
+        'Ashika Prakashan: 8304034997\n' +
+        'Abhinand T M: 8137864081\n' +
+        'For Registration Contact\n' +
+        '13th March 2026\n' +
+        'Govt. PolytechnicCollegeKannur\n' +
+        'Prize Pool\n' +
+        'Rs 4500\n' +
+        'Eligible for\n' +
+        'activity points\n' +
+        'Registration Fee\n' +
+        'Rs 30\n' +
+        'Open to all\n' +
+        'branches\n' +
+        'Exploringinnovativestrategies and technologiesdriving\n' +
+        'sustainable development in the 21st century.',
+      num: 9
+    }
+  ],
+  text: '12-13 MARCH 2026\n' +
+    'A NATIONAL LEVEL PROGRAM\n' +
+    '\n' +
+    '-- 1 of 9 --\n' +
+    '\n' +
+    'MECHANICAL\n' +
+    'ENGINEERING\n' +
+    '\n' +
+    '-- 2 of 9 --\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '-- 3 of 9 --\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '-- 4 of 9 --\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '-- 5 of 9 --\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '-- 6 of 9 --\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '-- 7 of 9 --\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '-- 8 of 9 --\n' +
+    '\n' +
+    'COMPETITION\n' +
+    'GOVT POLYTECHNIC COLLEGE\n' +
+    'KANNUR\n' +
+    'SEMINAR\n' +
+    'Topic: Sustainabledevelopment\n' +
+    'in the 21st century\n' +
+    'Ashika Prakashan: 8304034997\n' +
+    'Abhinand T M: 8137864081\n' +
+    'For Registration Contact\n' +
+    '13th March 2026\n' +
+    'Govt. PolytechnicCollegeKannur\n' +
+    'Prize Pool\n' +
+    'Rs 4500\n' +
+    'Eligible for\n' +
+    'activity points\n' +
+    'Registration Fee\n' +
+    'Rs 30\n' +
+    'Open to all\n' +
+    'branches\n' +
+    'Exploringinnovativestrategies and technologiesdriving\n' +
+    'sustainable development in the 21st century.\n' +
+    '\n' +
+    '-- 9 of 9 --\n' +
+    '\n',
+  total: 9
+}
+
+
+
+========================================
+FILE: TARANG-GPTC KANNUR-TEXTILE TECHNOLOGY.pdf
+========================================
+kr {
+  pages: [
+    { text: '12-13 MARCH 2026\nA NATIONAL LEVEL PROGRAM', num: 1 },
+    { text: 'TEXTILE\nTECHNOLOGY', num: 2 },
+    { text: '', num: 3 },
+    { text: '', num: 4 },
+    { text: '', num: 5 },
+    { text: '', num: 6 },
+    { text: '', num: 7 },
+    {
+      text: 'COMPETITION\n' +
+        'SEMINAR\tSEMINAR\tSEMINAR\n' +
+        'Topic: Sustainable development\n' +
+        'in the 21 \tcenturyst\n' +
+        'Topic: Sustainable development\n' +
+        'in the 21 \tcenturyst\n' +
+        'GOVT POLYTECHNIC COLLEGE\n' +
+        'KANNUR\n' +
+        'Ashika Prakashan: 8304034997\n' +
+        'Abhinand T M: \t8137864081\n' +
+        'For Registration Contact\n' +
+        '13 \tMarch 2026th\n' +
+        'Govt. Polytechnic College Kannur\n' +
+        'Prize Pool\n' +
+        'Rs 4500\n' +
+        'Eligible for\n' +
+        'activity points\n' +
+        'Registration Fee\n' +
+        'Rs 30\n' +
+        'Open to all\n' +
+        'branches\n' +
+        'Exploring innovative strategies and technologies driving\n' +
+        'sustainable development in the 21st century.',
+      num: 8
+    }
+  ],
+  text: '12-13 MARCH 2026\n' +
+    'A NATIONAL LEVEL PROGRAM\n' +
+    '\n' +
+    '-- 1 of 8 --\n' +
+    '\n' +
+    'TEXTILE\n' +
+    'TECHNOLOGY\n' +
+    '\n' +
+    '-- 2 of 8 --\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '-- 3 of 8 --\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '-- 4 of 8 --\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '-- 5 of 8 --\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '-- 6 of 8 --\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '-- 7 of 8 --\n' +
+    '\n' +
+    'COMPETITION\n' +
+    'SEMINAR\tSEMINAR\tSEMINAR\n' +
+    'Topic: Sustainable development\n' +
+    'in the 21 \tcenturyst\n' +
+    'Topic: Sustainable development\n' +
+    'in the 21 \tcenturyst\n' +
+    'GOVT POLYTECHNIC COLLEGE\n' +
+    'KANNUR\n' +
+    'Ashika Prakashan: 8304034997\n' +
+    'Abhinand T M: \t8137864081\n' +
+    'For Registration Contact\n' +
+    '13 \tMarch 2026th\n' +
+    'Govt. Polytechnic College Kannur\n' +
+    'Prize Pool\n' +
+    'Rs 4500\n' +
+    'Eligible for\n' +
+    'activity points\n' +
+    'Registration Fee\n' +
+    'Rs 30\n' +
+    'Open to all\n' +
+    'branches\n' +
+    'Exploring innovative strategies and technologies driving\n' +
+    'sustainable development in the 21st century.\n' +
+    '\n' +
+    '-- 8 of 8 --\n' +
+    '\n',
+  total: 8
+}
+
+
+
+========================================
+FILE: TARANG-GPTC KANNUR-WOOD AND PAPER TECHNOLOGY.pdf
+========================================
+kr {
+  pages: [
+    { text: '12-13 MARCH 2026\nA NATIONAL LEVEL PROGRAM', num: 1 },
+    { text: 'WOOD AND PAPER\nTECHNOLOGY', num: 2 },
+    { text: '', num: 3 },
+    {
+      text: 'COMPETITION\n' +
+        'SEMINAR\tSEMINAR\tSEMINAR\n' +
+        'Topic: Sustainable development\n' +
+        'in the 21 \tcenturyst\n' +
+        'Topic: Sustainable development\n' +
+        'in the 21 \tcenturyst\n' +
+        'GOVT POLYTECHNIC COLLEGE\n' +
+        'KANNUR\n' +
+        'Ashika Prakashan: 8304034997\n' +
+        'Abhinand T M: \t8137864081\n' +
+        'For Registration Contact\n' +
+        '13 \tMarch 2026th\n' +
+        'Govt. Polytechnic College Kannur\n' +
+        'Prize Pool\n' +
+        'Rs 4500\n' +
+        'Eligible for\n' +
+        'activity points\n' +
+        'Registration Fee\n' +
+        'Rs 30\n' +
+        'Open to all\n' +
+        'branches\n' +
+        'Exploring innovative strategies and technologies driving\n' +
+        'sustainable development in the 21st century.',
+      num: 4
+    }
+  ],
+  text: '12-13 MARCH 2026\n' +
+    'A NATIONAL LEVEL PROGRAM\n' +
+    '\n' +
+    '-- 1 of 4 --\n' +
+    '\n' +
+    'WOOD AND PAPER\n' +
+    'TECHNOLOGY\n' +
+    '\n' +
+    '-- 2 of 4 --\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '-- 3 of 4 --\n' +
+    '\n' +
+    'COMPETITION\n' +
+    'SEMINAR\tSEMINAR\tSEMINAR\n' +
+    'Topic: Sustainable development\n' +
+    'in the 21 \tcenturyst\n' +
+    'Topic: Sustainable development\n' +
+    'in the 21 \tcenturyst\n' +
+    'GOVT POLYTECHNIC COLLEGE\n' +
+    'KANNUR\n' +
+    'Ashika Prakashan: 8304034997\n' +
+    'Abhinand T M: \t8137864081\n' +
+    'For Registration Contact\n' +
+    '13 \tMarch 2026th\n' +
+    'Govt. Polytechnic College Kannur\n' +
+    'Prize Pool\n' +
+    'Rs 4500\n' +
+    'Eligible for\n' +
+    'activity points\n' +
+    'Registration Fee\n' +
+    'Rs 30\n' +
+    'Open to all\n' +
+    'branches\n' +
+    'Exploring innovative strategies and technologies driving\n' +
+    'sustainable development in the 21st century.\n' +
+    '\n' +
+    '-- 4 of 4 --\n' +
+    '\n',
+  total: 4
+}
+
+
+
