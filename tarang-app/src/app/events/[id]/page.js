@@ -261,7 +261,7 @@ export default async function EventPage({ params }) {
                         <div className="event-detail-sidebar">
                             {fullEvent.contacts && fullEvent.contacts.length > 0 && (
                                 <div className="event-detail-contact-card">
-                                    <h3 className="event-detail-contact-title">📞 Contact for Registration</h3>
+                                    <h3 className="event-detail-contact-title">📞 Contact for Queries</h3>
                                     <div className="event-detail-contacts">
                                         {fullEvent.contacts.map((c, i) => (
                                             <div key={i} className="event-detail-contact-item">
